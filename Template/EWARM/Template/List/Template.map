@@ -1,0 +1,1574 @@
+###############################################################################
+#
+# IAR ELF Linker V7.40.3.8902/W32 for ARM                 03/May/2018  17:25:43
+# Copyright 2007-2015 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Exe\Template.out
+#    Map file     =  
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template/List\Template.map
+#    Command line =  
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\adc_driver.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\algorithm.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\App_debug.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\App_NB_control.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\App_switch_control.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\bsp_gpio.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\crc16.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\crc32.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\crc7.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\delay.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\demo_xx_driver.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\device_protocol.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\gpio_74hc595_driver.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\gpio_beep_driver.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\gpio_iic_driver.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\gpio_leds_driver.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\gpio_matrix_driver.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\gpio_powctrl_driver.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\gpio_userkey_driver.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_api_dynamic_mem.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_api_event.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_api_fs.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_api_list.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_api_msgqueue.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_api_mutex.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_api_sem.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_api_static_mem.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_api_systick.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_api_task.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_api_timer.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_api_xmodem.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_bsp_adapter.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_bsp_key.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_bsp_led.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_cmsis_main.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_config.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_demo_entry.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_dispatch_iar.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_event.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_hw.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_hw_tick.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_hwi.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_inspect_entry.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_membox.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_memory.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_memstat.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_misc.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_multipledlinkhead.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_mux.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_priqueue.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_queue.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_sem.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_startup_iar.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_swtmr.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_sys.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_task.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_tick.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\los_timeslice.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\main.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\NB_BC95.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\NB_Board.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\NB_Board_Cfg.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\oled_driver.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\sensor_hall_driver.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\sensor_light5537_driver.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\sensor_single_line.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\spi.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\spi1_wsn2_driver.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\spi2_rfid2_driver.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\spi3_stc_driver.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\spi4_wsn1_driver.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\spi5_rfid1_driver.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\stm32f4xx_hal.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\stm32f4xx_hal_adc.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\stm32f4xx_hal_cortex.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\stm32f4xx_hal_dma.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\stm32f4xx_hal_dma_ex.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\stm32f4xx_hal_flash.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\stm32f4xx_hal_flash_ex.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\stm32f4xx_hal_flash_ramfunc.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\stm32f4xx_hal_gpio.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\stm32f4xx_hal_iwdg.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\stm32f4xx_hal_msp.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\stm32f4xx_hal_pwr.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\stm32f4xx_hal_pwr_ex.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\stm32f4xx_hal_rcc.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\stm32f4xx_hal_rcc_ex.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\stm32f4xx_hal_spi.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\stm32f4xx_hal_tim.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\stm32f4xx_hal_tim_ex.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\stm32f4xx_hal_uart.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\stm32f4xx_hal_wwdg.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\stm32f4xx_it.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\stm32f4xx_nucleo.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\switch_control.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\system_stm32f4xx.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\timer_user_poll.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\usart_debug_driver.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\usart_nb_iot_driver.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\usart_serialscreen_driver.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\usmart.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\usmart_config.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\usmart_str.o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj\xor.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Exe\Template.out
+#        --map
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\Template/List\Template.map
+#        --config
+#        C:\Users\Administrator\Desktop\Template\Template\EWARM\stm32f411xe_flash.icf
+#        --warnings_are_errors --semihosting --entry __iar_program_start
+#        --redirect __iar_sh_stdout=__iar_sh_stdout_swo --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__Heap_Handler  = Basic
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0807ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x2001ffff] { rw, block CSTACK, block HEAP };
+
+  Section             Kind        Address     Size  Object
+  -------             ----        -------     ----  ------
+"A1":                                         0x40
+  .intvec             ro code  0x08000000     0x40  los_startup_iar.o [1]
+                             - 0x08000040     0x40
+
+"P1":                                       0xfba1
+  .text               ro code  0x08000040   0x13fc  NB_BC95.o [1]
+  .text               ro code  0x0800143c     0x66  ABImemset.o [5]
+  .text               ro code  0x080014a2     0x1a  xsnprout.o [3]
+  .text               ro code  0x080014bc     0x44  snprintf.o [3]
+  .text               ro code  0x08001500     0x10  NB_BC95.o [1]
+  .text               ro code  0x08001510     0x16  strchr.o [5]
+  .text               ro code  0x08001526      0xa  xsprout.o [3]
+  .text               ro code  0x08001530     0x76  ABImemcpy_unaligned.o [5]
+  .rodata             const    0x080015a6      0x2  usmart.o [1]
+  .text               ro code  0x080015a8     0x34  sprintf.o [3]
+  .text               ro code  0x080015dc     0x4c  strtok.o [3]
+  .text               ro code  0x08001628     0x36  strlen.o [5]
+  .text               ro code  0x0800165e      0x4  strtoul.o [3]
+  .rodata             const    0x08001662      0x1  los_bsp_adapter.o [1]
+  .text               ro code  0x08001664    0xdae  xprintffull.o [3]
+  .text               ro code  0x08002412     0x2c  strstr.o [3]
+  .text               ro code  0x0800243e      0x2  xtls.o [3]
+  .text               ro code  0x08002440     0x22  strspn.o [3]
+  .text               ro code  0x08002462     0x22  strcspn.o [3]
+  .text               ro code  0x08002484    0x19c  xstoul.o [3]
+  .text               ro code  0x08002620     0x58  memchr.o [5]
+  .text               ro code  0x08002678     0xee  I64DivMod.o [5]
+  .text               ro code  0x08002766     0x42  xdnorm.o [4]
+  .text               ro code  0x080027a8     0x2e  DblCmpLe.o [4]
+  .text               ro code  0x080027d8     0x2e  DblCmpGe.o [4]
+  .text               ro code  0x08002808    0x118  xdscale.o [4]
+  .text               ro code  0x08002920     0x58  DblToI32.o [4]
+  .text               ro code  0x08002978     0x30  I32ToDbl.o [4]
+  .text               ro code  0x080029a8    0x180  DblSub.o [4]
+  .text               ro code  0x08002b28    0x1a2  DblMul.o [4]
+  .text               ro code  0x08002ccc    0x256  DblDiv.o [4]
+  .text               ro code  0x08002f22      0xe  div.o [3]
+  .text               ro code  0x08002f30      0xc  errno.o [3]
+  .text               ro code  0x08002f3c      0x2  I64DivZer.o [5]
+  .text               ro code  0x08002f40     0xd4  DblAdd.o [4]
+  .text               ro code  0x08003014    0xc50  los_task.o [1]
+  .text               ro code  0x08003c64    0x108  los_priqueue.o [1]
+  .text               ro code  0x08003d6c    0x20c  los_hw.o [1]
+  .text               ro code  0x08003f78    0x4fa  los_memory.o [1]
+  .text               ro code  0x08004474     0xf0  los_dispatch_iar.o [1]
+  .text               ro code  0x08004564    0x354  los_sem.o [1]
+  .text               ro code  0x080048b8     0x18  los_misc.o [1]
+  .text               ro code  0x080048d0    0x16e  los_multipledlinkhead.o [1]
+  .text               ro code  0x08004a40     0x5c  los_memstat.o [1]
+  .text               ro code  0x08004a9c    0xc04  stm32f4xx_hal_uart.o [1]
+  .text               ro code  0x080056a0     0xfe  main.o [1]
+  .text               ro code  0x080057a0    0x244  usart_debug_driver.o [1]
+  .text               ro code  0x080059e4     0x9c  timer_user_poll.o [1]
+  .text               ro code  0x08005a80    0x878  stm32f4xx_hal_dma.o [1]
+  .text               ro code  0x080062f8    0x8c4  stm32f4xx_hal_rcc.o [1]
+  .text               ro code  0x08006bbc     0x24  printf.o [3]
+  .text               ro code  0x08006be0     0x8c  stm32f4xx_hal.o [1]
+  .text               ro code  0x08006c6c     0xe4  los_config.o [1]
+  .text               ro code  0x08006d50    0x1e8  los_bsp_adapter.o [1]
+  .text               ro code  0x08006f38     0x78  los_demo_entry.o [1]
+  .text               ro code  0x08006fb0    0x5c8  stm32f4xx_hal_gpio.o [1]
+  .text               ro code  0x08007578    0x1d8  stm32f4xx_hal_cortex.o [1]
+  .text               ro code  0x08007750    0x800  usart_nb_iot_driver.o [1]
+  .text               ro code  0x08007f50    0x194  usart_serialscreen_driver.o [1]
+  .text               ro code  0x080080e4    0x24c  switch_control.o [1]
+  .text               ro code  0x08008330     0x5e  stm32f4xx_hal_msp.o [1]
+  .text               ro code  0x08008390    0x108  los_hwi.o [1]
+  .text               ro code  0x08008498    0x3e8  los_mux.o [1]
+  .text               ro code  0x08008880    0x624  los_queue.o [1]
+  .text               ro code  0x08008ea4    0x528  los_swtmr.o [1]
+  .text               ro code  0x080093cc     0x60  los_timeslice.o [1]
+  .text               ro code  0x0800942c     0x44  los_hw_tick.o [1]
+  .text               ro code  0x08009470     0x74  gpio_powctrl_driver.o [1]
+  .text               ro code  0x080094e4    0x1ec  los_api_task.o [1]
+  .text               ro code  0x080096d0    0x31c  App_debug.o [1]
+  .text               ro code  0x080099ec    0x108  App_switch_control.o [1]
+  .text               ro code  0x08009af4    0x6d0  App_NB_control.o [1]
+  .text               ro code  0x0800a1c4     0x14  los_sys.o [1]
+  .text               ro code  0x0800a1d8    0x17c  los_membox.o [1]
+  .text               ro code  0x0800a354     0x28  los_tick.o [1]
+  .text               ro code  0x0800a37c    0x120  bsp_gpio.o [1]
+  .text               ro code  0x0800a49c     0x60  los_inspect_entry.o [1]
+  .text               ro code  0x0800a4fc    0x768  usmart.o [1]
+  .text               ro code  0x0800ac64     0x3c  vsnprint.o [3]
+  .text               ro code  0x0800aca0     0x68  gpio_leds_driver.o [1]
+  .text               ro code  0x0800ad08     0x30  gpio_beep_driver.o [1]
+  .text               ro code  0x0800ad38    0x14c  spi3_stc_driver.o [1]
+  .text               ro code  0x0800ae84     0xf4  spi.o [1]
+  .text               ro code  0x0800af78    0x454  oled_driver.o [1]
+  .text               ro code  0x0800b3cc    0x15c  NB_Board.o [1]
+  .text               ro code  0x0800b528    0x19c  device_protocol.o [1]
+  .text               ro code  0x0800b6c4      0x6  ABImemclr4.o [5]
+  .text               ro code  0x0800b6cc    0x650  usmart_str.o [1]
+  .text               ro code  0x0800bd1c    0x240  stm32f4xx_hal_spi.o [1]
+  .text               ro code  0x0800bf5c     0xd8  delay.o [1]
+  .text               ro code  0x0800c034     0x1c  algorithm.o [1]
+  .text               ro code  0x0800c050     0x22  xor.o [1]
+  .text               ro code  0x0800c074     0x32  ABImemset48.o [5]
+  .rodata             const    0x0800c0a8    0x5f0  oled_driver.o [1]
+  .rodata             const    0x0800c698    0x474  oled_driver.o [1]
+  .text               ro code  0x0800cb0c    0x334  los_event.o [1]
+  .text               ro code  0x0800ce40    0x1d8  los_api_timer.o [1]
+  .text               ro code  0x0800d018    0x1d4  los_api_sem.o [1]
+  .text               ro code  0x0800d1ec    0x1d0  los_api_mutex.o [1]
+  .text               ro code  0x0800d3bc    0x1bc  los_api_msgqueue.o [1]
+  .text               ro code  0x0800d578    0x15c  los_api_list.o [1]
+  .text               ro code  0x0800d6d4     0x80  xxmemxfree.o [3]
+  .text               ro code  0x0800d754    0x144  los_api_event.o [1]
+  .text               ro code  0x0800d898     0xdc  los_api_static_mem.o [1]
+  .text               ro code  0x0800d974     0xd0  packbits_init.o [5]
+  .text               ro code  0x0800da44      0x6  abort.o [3]
+  .text               ro code  0x0800da4c     0x14  exit.o [6]
+  .text               ro code  0x0800da60     0xc8  los_api_dynamic_mem.o [1]
+  .text               ro code  0x0800db28     0xac  los_api_systick.o [1]
+  .rodata             const    0x0800dbd4     0x6c  stm32f4xx_hal_cortex.o [1]
+  .rodata             const    0x0800dc40     0x68  stm32f4xx_hal_dma.o [1]
+  .rodata             const    0x0800dca8     0x68  stm32f4xx_hal_gpio.o [1]
+  .rodata             const    0x0800dd10     0x68  stm32f4xx_hal_rcc.o [1]
+  .rodata             const    0x0800dd78     0x68  stm32f4xx_hal_spi.o [1]
+  .rodata             const    0x0800dde0     0x68  stm32f4xx_hal_uart.o [1]
+  .rodata             const    0x0800de48     0x68  usart_serialscreen_driver.o [1]
+  .rodata             const    0x0800deb0     0x64  usart_debug_driver.o [1]
+  .rodata             const    0x0800df14     0x64  usart_nb_iot_driver.o [1]
+  .rodata             const    0x0800df78     0x50  usmart.o [1]
+  .rodata             const    0x0800dfc8     0x4c  App_debug.o [1]
+  .text               ro code  0x0800e014     0x4c  iarwstdswo.o [6]
+  .rodata             const    0x0800e060     0x44  los_api_sem.o [1]
+  .rodata             const    0x0800e0a4     0x40  los_api_sem.o [1]
+  .rodata             const    0x0800e0e4     0x40  los_api_sem.o [1]
+  .rodata             const    0x0800e124     0x40  main.o [1]
+  .rodata             const    0x0800e164     0x40  usmart.o [1]
+  .rodata             const    0x0800e1a4     0x40  usmart.o [1]
+  .rodata             const    0x0800e1e4     0x40  usmart.o [1]
+  .rodata             const    0x0800e224     0x40  usmart.o [1]
+  .rodata             const    0x0800e264     0x40  usmart.o [1]
+  .rodata             const    0x0800e2a4     0x40  usmart.o [1]
+  .text               ro code  0x0800e2e4     0x40  zero_init3.o [5]
+  .rodata             const    0x0800e324     0x3c  los_api_sem.o [1]
+  .rodata             const    0x0800e360     0x38  los_api_sem.o [1]
+  .rodata             const    0x0800e398     0x38  NB_BC95.o [1]
+  .rodata             const    0x0800e3d0     0x38  usmart.o [1]
+  .rodata             const    0x0800e408     0x38  usmart.o [1]
+  .rodata             const    0x0800e440     0x38  usmart.o [1]
+  .rodata             const    0x0800e478     0x34  los_api_mutex.o [1]
+  .rodata             const    0x0800e4ac     0x34  los_api_mutex.o [1]
+  .rodata             const    0x0800e4e0     0x34  los_api_mutex.o [1]
+  .rodata             const    0x0800e514     0x34  usmart.o [1]
+  .rodata             const    0x0800e548     0x2c  usmart.o [1]
+  .rodata             const    0x0800e574     0x28  App_debug.o [1]
+  .rodata             const    0x0800e59c     0x28  App_NB_control.o [1]
+  .rodata             const    0x0800e5c4     0x28  App_switch_control.o [1]
+  .rodata             const    0x0800e5ec     0x28  los_api_event.o [1]
+  .rodata             const    0x0800e614     0x28  los_api_mutex.o [1]
+  .rodata             const    0x0800e63c     0x28  los_api_mutex.o [1]
+  .rodata             const    0x0800e664     0x28  los_api_mutex.o [1]
+  .rodata             const    0x0800e68c     0x28  los_api_sem.o [1]
+  .text               ro code  0x0800e6b4     0x28  putchar.o [3]
+  .text               ro code  0x0800e6dc     0x10  write.o [6]
+  .text               ro code  0x0800e6ec     0x1e  dwrite.o [6]
+  .text               ro code  0x0800e70a     0x22  iarwrite.o [6]
+  .text               ro code  0x0800e72c     0x28  data_init.o [5]
+  .rodata             const    0x0800e754     0x24  App_debug.o [1]
+  .rodata             const    0x0800e778     0x24  App_debug.o [1]
+  .rodata             const    0x0800e79c     0x24  App_NB_control.o [1]
+  .rodata             const    0x0800e7c0     0x24  App_NB_control.o [1]
+  .rodata             const    0x0800e7e4     0x24  los_api_event.o [1]
+  .rodata             const    0x0800e808     0x24  los_api_systick.o [1]
+  .rodata             const    0x0800e82c     0x24  los_api_task.o [1]
+  .rodata             const    0x0800e850     0x24  los_api_task.o [1]
+  .rodata             const    0x0800e874     0x24  los_api_task.o [1]
+  .rodata             const    0x0800e898     0x24  los_api_task.o [1]
+  .rodata             const    0x0800e8bc     0x24  los_demo_entry.o [1]
+  .rodata             const    0x0800e8e0     0x24  usmart_config.o [1]
+  .text               ro code  0x0800e904     0x22  fpinit_M.o [4]
+  .iar.init_table     const    0x0800e928     0x2c  - Linker created -
+  .rodata             const    0x0800e954     0x20  App_debug.o [1]
+  .rodata             const    0x0800e974     0x20  App_NB_control.o [1]
+  .rodata             const    0x0800e994     0x20  App_NB_control.o [1]
+  .rodata             const    0x0800e9b4     0x20  los_api_event.o [1]
+  .rodata             const    0x0800e9d4     0x20  los_api_event.o [1]
+  .rodata             const    0x0800e9f4     0x20  los_api_list.o [1]
+  .rodata             const    0x0800ea14     0x20  los_api_msgqueue.o [1]
+  .rodata             const    0x0800ea34     0x20  los_api_msgqueue.o [1]
+  .rodata             const    0x0800ea54     0x20  los_api_msgqueue.o [1]
+  .rodata             const    0x0800ea74     0x20  los_api_msgqueue.o [1]
+  .rodata             const    0x0800ea94     0x20  los_api_msgqueue.o [1]
+  .rodata             const    0x0800eab4     0x20  los_api_mutex.o [1]
+  .rodata             const    0x0800ead4     0x20  los_api_task.o [1]
+  .rodata             const    0x0800eaf4     0x20  los_api_task.o [1]
+  .rodata             const    0x0800eb14     0x20  los_api_task.o [1]
+  .rodata             const    0x0800eb34     0x20  los_inspect_entry.o [1]
+  .rodata             const    0x0800eb54     0x20  usmart.o [1]
+  .rodata             const    0x0800eb74     0x1c  App_NB_control.o [1]
+  .rodata             const    0x0800eb90     0x1c  App_NB_control.o [1]
+  .rodata             const    0x0800ebac     0x1c  App_NB_control.o [1]
+  .rodata             const    0x0800ebc8     0x1c  App_NB_control.o [1]
+  .rodata             const    0x0800ebe4     0x1c  App_NB_control.o [1]
+  .rodata             const    0x0800ec00     0x1c  los_api_msgqueue.o [1]
+  .rodata             const    0x0800ec1c     0x1c  los_api_msgqueue.o [1]
+  .rodata             const    0x0800ec38     0x1c  los_api_mutex.o [1]
+  .rodata             const    0x0800ec54     0x1c  los_api_static_mem.o [1]
+  .rodata             const    0x0800ec70     0x1c  los_api_systick.o [1]
+  .rodata             const    0x0800ec8c     0x1c  los_api_task.o [1]
+  .rodata             const    0x0800eca8     0x1c  los_api_task.o [1]
+  .rodata             const    0x0800ecc4     0x1c  los_inspect_entry.o [1]
+  .rodata             const    0x0800ece0     0x1c  usmart.o [1]
+  .rodata             const    0x0800ecfc     0x1c  usmart.o [1]
+  .text               ro code  0x0800ed18     0x1a  cmain.o [5]
+  .text               ro code  0x0800ed32      0x4  low_level_init.o [3]
+  .text               ro code  0x0800ed36      0x4  exit.o [3]
+  .text               ro code  0x0800ed3c      0xa  cexit.o [5]
+  .rodata             const    0x0800ed48     0x18  App_NB_control.o [1]
+  .rodata             const    0x0800ed60     0x18  App_NB_control.o [1]
+  .rodata             const    0x0800ed78     0x18  los_api_dynamic_mem.o [1]
+  .rodata             const    0x0800ed90     0x18  los_api_dynamic_mem.o [1]
+  .rodata             const    0x0800eda8     0x18  los_api_event.o [1]
+  .rodata             const    0x0800edc0     0x18  los_api_event.o [1]
+  .rodata             const    0x0800edd8     0x18  los_api_event.o [1]
+  .rodata             const    0x0800edf0     0x18  los_api_event.o [1]
+  .rodata             const    0x0800ee08     0x18  los_api_event.o [1]
+  .rodata             const    0x0800ee20     0x18  los_api_list.o [1]
+  .rodata             const    0x0800ee38     0x18  los_api_list.o [1]
+  .rodata             const    0x0800ee50     0x18  los_api_msgqueue.o [1]
+  .rodata             const    0x0800ee68     0x18  los_api_mutex.o [1]
+  .rodata             const    0x0800ee80     0x18  los_api_mutex.o [1]
+  .rodata             const    0x0800ee98     0x18  los_api_mutex.o [1]
+  .rodata             const    0x0800eeb0     0x18  los_api_mutex.o [1]
+  .rodata             const    0x0800eec8     0x18  los_api_mutex.o [1]
+  .rodata             const    0x0800eee0     0x18  los_api_sem.o [1]
+  .rodata             const    0x0800eef8     0x18  los_api_sem.o [1]
+  .rodata             const    0x0800ef10     0x18  los_api_sem.o [1]
+  .rodata             const    0x0800ef28     0x18  los_api_sem.o [1]
+  .rodata             const    0x0800ef40     0x18  los_api_sem.o [1]
+  .rodata             const    0x0800ef58     0x18  los_api_static_mem.o [1]
+  .rodata             const    0x0800ef70     0x18  los_api_static_mem.o [1]
+  .rodata             const    0x0800ef88     0x18  los_api_static_mem.o [1]
+  .rodata             const    0x0800efa0     0x18  los_api_static_mem.o [1]
+  .rodata             const    0x0800efb8     0x18  los_api_systick.o [1]
+  .rodata             const    0x0800efd0     0x18  los_api_systick.o [1]
+  .rodata             const    0x0800efe8     0x18  los_api_task.o [1]
+  .rodata             const    0x0800f000     0x18  los_api_task.o [1]
+  .rodata             const    0x0800f018     0x18  los_api_task.o [1]
+  .rodata             const    0x0800f030     0x18  los_api_task.o [1]
+  .rodata             const    0x0800f048     0x18  los_api_task.o [1]
+  .rodata             const    0x0800f060     0x18  los_api_task.o [1]
+  .rodata             const    0x0800f078     0x18  los_api_task.o [1]
+  .rodata             const    0x0800f090     0x18  los_api_task.o [1]
+  .rodata             const    0x0800f0a8     0x18  los_api_timer.o [1]
+  .rodata             const    0x0800f0c0     0x18  los_api_timer.o [1]
+  .rodata             const    0x0800f0d8     0x18  los_api_timer.o [1]
+  .rodata             const    0x0800f0f0     0x18  los_api_timer.o [1]
+  .rodata             const    0x0800f108     0x18  los_api_timer.o [1]
+  .rodata             const    0x0800f120     0x18  los_api_timer.o [1]
+  .rodata             const    0x0800f138     0x18  los_api_timer.o [1]
+  .rodata             const    0x0800f150     0x18  los_api_timer.o [1]
+  .rodata             const    0x0800f168     0x18  los_api_timer.o [1]
+  .rodata             const    0x0800f180     0x18  los_api_timer.o [1]
+  .rodata             const    0x0800f198     0x18  los_api_timer.o [1]
+  .rodata             const    0x0800f1b0     0x18  los_api_timer.o [1]
+  .rodata             const    0x0800f1c8     0x18  usmart.o [1]
+  .rodata             const    0x0800f1e0     0x18  usmart.o [1]
+  .rodata             const    0x0800f1f8     0x18  usmart.o [1]
+  .rodata             const    0x0800f210     0x18  usmart_config.o [1]
+  .text               ro code  0x0800f228     0x16  xprout.o [3]
+  .rodata             const    0x0800f240     0x14  App_NB_control.o [1]
+  .rodata             const    0x0800f254     0x14  App_NB_control.o [1]
+  .rodata             const    0x0800f268     0x14  App_NB_control.o [1]
+  .rodata             const    0x0800f27c     0x14  App_NB_control.o [1]
+  .rodata             const    0x0800f290     0x14  los_api_dynamic_mem.o [1]
+  .rodata             const    0x0800f2a4     0x14  los_api_dynamic_mem.o [1]
+  .rodata             const    0x0800f2b8     0x14  los_api_dynamic_mem.o [1]
+  .rodata             const    0x0800f2cc     0x14  los_api_list.o [1]
+  .rodata             const    0x0800f2e0     0x14  los_api_list.o [1]
+  .rodata             const    0x0800f2f4     0x14  los_api_list.o [1]
+  .rodata             const    0x0800f308     0x14  los_api_list.o [1]
+  .rodata             const    0x0800f31c     0x14  los_api_msgqueue.o [1]
+  .rodata             const    0x0800f330     0x14  los_api_static_mem.o [1]
+  .rodata             const    0x0800f344     0x14  los_api_static_mem.o [1]
+  .rodata             const    0x0800f358     0x14  los_api_static_mem.o [1]
+  .rodata             const    0x0800f36c     0x14  los_api_timer.o [1]
+  .rodata             const    0x0800f380     0x14  los_api_timer.o [1]
+  .rodata             const    0x0800f394     0x14  los_api_timer.o [1]
+  .rodata             const    0x0800f3a8     0x14  los_api_timer.o [1]
+  .rodata             const    0x0800f3bc     0x14  los_api_timer.o [1]
+  .rodata             const    0x0800f3d0     0x14  NB_BC95.o [1]
+  .rodata             const    0x0800f3e4     0x14  NB_BC95.o [1]
+  .rodata             const    0x0800f3f8     0x14  usmart.o [1]
+  .rodata             const    0x0800f40c     0x14  usmart.o [1]
+  .rodata             const    0x0800f420     0x14  usmart.o [1]
+  .rodata             const    0x0800f434     0x14  usmart.o [1]
+  .rodata             const    0x0800f448     0x14  usmart_config.o [1]
+  .rodata             const    0x0800f45c     0x10  App_debug.o [1]
+  .rodata             const    0x0800f46c     0x10  App_NB_control.o [1]
+  .rodata             const    0x0800f47c     0x10  App_NB_control.o [1]
+  .rodata             const    0x0800f48c     0x10  App_NB_control.o [1]
+  .rodata             const    0x0800f49c     0x10  App_NB_control.o [1]
+  .rodata             const    0x0800f4ac     0x10  App_NB_control.o [1]
+  .rodata             const    0x0800f4bc     0x10  App_NB_control.o [1]
+  .rodata             const    0x0800f4cc     0x10  App_NB_control.o [1]
+  .rodata             const    0x0800f4dc     0x10  App_NB_control.o [1]
+  .rodata             const    0x0800f4ec     0x10  App_NB_control.o [1]
+  .rodata             const    0x0800f4fc     0x10  App_NB_control.o [1]
+  .rodata             const    0x0800f50c     0x10  App_NB_control.o [1]
+  .rodata             const    0x0800f51c     0x10  App_NB_control.o [1]
+  .rodata             const    0x0800f52c     0x10  App_NB_control.o [1]
+  .rodata             const    0x0800f53c     0x10  App_NB_control.o [1]
+  .rodata             const    0x0800f54c     0x10  App_switch_control.o [1]
+  .rodata             const    0x0800f55c     0x10  los_api_dynamic_mem.o [1]
+  .rodata             const    0x0800f56c     0x10  los_api_dynamic_mem.o [1]
+  .rodata             const    0x0800f57c     0x10  los_api_dynamic_mem.o [1]
+  .rodata             const    0x0800f58c     0x10  los_api_event.o [1]
+  .rodata             const    0x0800f59c     0x10  los_api_list.o [1]
+  .rodata             const    0x0800f5ac     0x10  los_api_list.o [1]
+  .rodata             const    0x0800f5bc     0x10  los_api_static_mem.o [1]
+  .rodata             const    0x0800f5cc     0x10  los_api_timer.o [1]
+  .rodata             const    0x0800f5dc     0x10  los_api_timer.o [1]
+  .rodata             const    0x0800f5ec     0x10  NB_BC95.o [1]
+  .rodata             const    0x0800f5fc     0x10  NB_BC95.o [1]
+  .rodata             const    0x0800f60c     0x10  NB_BC95.o [1]
+  .rodata             const    0x0800f61c     0x10  system_stm32f4xx.o [1]
+  .text               ro code  0x0800f62c     0x10  los_startup_iar.o [1]
+  .rodata             const    0x0800f63c      0xc  App_debug.o [1]
+  .rodata             const    0x0800f648      0xc  App_debug.o [1]
+  .rodata             const    0x0800f654      0xc  App_NB_control.o [1]
+  .rodata             const    0x0800f660      0xc  App_NB_control.o [1]
+  .rodata             const    0x0800f66c      0xc  App_NB_control.o [1]
+  .rodata             const    0x0800f678      0xc  App_NB_control.o [1]
+  .rodata             const    0x0800f684      0xc  App_NB_control.o [1]
+  .rodata             const    0x0800f690      0xc  App_NB_control.o [1]
+  .rodata             const    0x0800f69c      0xc  App_NB_control.o [1]
+  .rodata             const    0x0800f6a8      0xc  App_NB_control.o [1]
+  .rodata             const    0x0800f6b4      0xc  App_NB_control.o [1]
+  .rodata             const    0x0800f6c0      0xc  App_NB_control.o [1]
+  .rodata             const    0x0800f6cc      0xc  App_NB_control.o [1]
+  .rodata             const    0x0800f6d8      0xc  App_switch_control.o [1]
+  .rodata             const    0x0800f6e4      0xc  App_switch_control.o [1]
+  .rodata             const    0x0800f6f0      0xc  los_api_event.o [1]
+  .rodata             const    0x0800f6fc      0xc  los_api_msgqueue.o [1]
+  .rodata             const    0x0800f708      0xc  los_api_mutex.o [1]
+  .rodata             const    0x0800f714      0xc  los_api_mutex.o [1]
+  .rodata             const    0x0800f720      0xc  los_api_sem.o [1]
+  .rodata             const    0x0800f72c      0xc  los_api_sem.o [1]
+  .rodata             const    0x0800f738      0xc  los_api_task.o [1]
+  .rodata             const    0x0800f744      0xc  los_api_task.o [1]
+  .rodata             const    0x0800f750      0xc  los_swtmr.o [1]
+  .rodata             const    0x0800f75c      0xc  los_task.o [1]
+  .rodata             const    0x0800f768      0xc  NB_BC95.o [1]
+  .rodata             const    0x0800f774      0xc  NB_BC95.o [1]
+  .rodata             const    0x0800f780      0xc  NB_BC95.o [1]
+  .rodata             const    0x0800f78c      0xc  NB_BC95.o [1]
+  .rodata             const    0x0800f798      0xc  NB_BC95.o [1]
+  .rodata             const    0x0800f7a4      0xc  NB_BC95.o [1]
+  .rodata             const    0x0800f7b0      0xc  NB_BC95.o [1]
+  .rodata             const    0x0800f7bc      0xc  NB_BC95.o [1]
+  .rodata             const    0x0800f7c8      0xc  oled_driver.o [1]
+  .rodata             const    0x0800f7d4      0xc  oled_driver.o [1]
+  .rodata             const    0x0800f7e0      0xc  usmart.o [1]
+  .rodata             const    0x0800f7ec      0xc  usmart.o [1]
+  .rodata             const    0x0800f7f8      0xc  usmart.o [1]
+  .rodata             const    0x0800f804      0xc  usmart.o [1]
+  .rodata             const    0x0800f810      0xc  usmart.o [1]
+  .rodata             const    0x0800f81c      0xc  usmart.o [1]
+  .text               ro code  0x0800f828      0xc  cstartup_M.o [5]
+  .rodata             const    0x0800f834      0x8  App_debug.o [1]
+  .rodata             const    0x0800f83c      0x8  App_NB_control.o [1]
+  .rodata             const    0x0800f844      0x8  App_NB_control.o [1]
+  .rodata             const    0x0800f84c      0x8  App_NB_control.o [1]
+  .rodata             const    0x0800f854      0x8  App_NB_control.o [1]
+  .rodata             const    0x0800f85c      0x8  App_NB_control.o [1]
+  .rodata             const    0x0800f864      0x8  App_NB_control.o [1]
+  .rodata             const    0x0800f86c      0x8  App_NB_control.o [1]
+  .rodata             const    0x0800f874      0x8  App_NB_control.o [1]
+  .rodata             const    0x0800f87c      0x8  App_NB_control.o [1]
+  .rodata             const    0x0800f884      0x8  los_api_msgqueue.o [1]
+  .rodata             const    0x0800f88c      0x8  los_demo_entry.o [1]
+  .rodata             const    0x0800f894      0x8  main.o [1]
+  .rodata             const    0x0800f89c      0x8  NB_BC95.o [1]
+  .rodata             const    0x0800f8a4      0x8  NB_BC95.o [1]
+  .rodata             const    0x0800f8ac      0x8  NB_BC95.o [1]
+  .rodata             const    0x0800f8b4      0x8  NB_BC95.o [1]
+  .rodata             const    0x0800f8bc      0x8  NB_BC95.o [1]
+  .rodata             const    0x0800f8c4      0x8  NB_BC95.o [1]
+  .rodata             const    0x0800f8cc      0x8  NB_BC95.o [1]
+  .rodata             const    0x0800f8d4      0x8  NB_BC95.o [1]
+  .rodata             const    0x0800f8dc      0x8  NB_BC95.o [1]
+  .rodata             const    0x0800f8e4      0x8  NB_BC95.o [1]
+  .rodata             const    0x0800f8ec      0x8  NB_BC95.o [1]
+  .rodata             const    0x0800f8f4      0x8  NB_BC95.o [1]
+  .rodata             const    0x0800f8fc      0x8  NB_BC95.o [1]
+  .rodata             const    0x0800f904      0x8  NB_BC95.o [1]
+  .rodata             const    0x0800f90c      0x8  NB_BC95.o [1]
+  .rodata             const    0x0800f914      0x8  NB_BC95.o [1]
+  .rodata             const    0x0800f91c      0x8  NB_BC95.o [1]
+  .rodata             const    0x0800f924      0x8  NB_BC95.o [1]
+  .rodata             const    0x0800f92c      0x8  NB_BC95.o [1]
+  .rodata             const    0x0800f934      0x8  NB_BC95.o [1]
+  .rodata             const    0x0800f93c      0x8  NB_BC95.o [1]
+  .rodata             const    0x0800f944      0x8  NB_BC95.o [1]
+  .rodata             const    0x0800f94c      0x8  NB_BC95.o [1]
+  .rodata             const    0x0800f954      0x8  NB_BC95.o [1]
+  .rodata             const    0x0800f95c      0x8  NB_BC95.o [1]
+  .rodata             const    0x0800f964      0x8  NB_BC95.o [1]
+  .rodata             const    0x0800f96c      0x8  NB_BC95.o [1]
+  .rodata             const    0x0800f974      0x8  NB_BC95.o [1]
+  .rodata             const    0x0800f97c      0x8  stm32f4xx_hal_dma.o [1]
+  .rodata             const    0x0800f984      0x8  system_stm32f4xx.o [1]
+  .rodata             const    0x0800f98c      0x8  usart_nb_iot_driver.o [1]
+  .rodata             const    0x0800f994      0x8  usart_nb_iot_driver.o [1]
+  .rodata             const    0x0800f99c      0x8  usmart.o [1]
+  .rodata             const    0x0800f9a4      0x8  usmart.o [1]
+  .rodata             const    0x0800f9ac      0x8  usmart.o [1]
+  .rodata             const    0x0800f9b4      0x8  usmart.o [1]
+  .rodata             const    0x0800f9bc      0x8  usmart.o [1]
+  .rodata             const    0x0800f9c4      0x8  usmart.o [1]
+  .rodata             const    0x0800f9cc      0x8  usmart.o [1]
+  .rodata             const    0x0800f9d4      0x8  usmart_str.o [1]
+  .rodata             const    0x0800f9dc      0x4  los_bsp_adapter.o [1]
+  .rodata             const    0x0800f9e0      0x4  los_bsp_adapter.o [1]
+  .rodata             const    0x0800f9e4      0x4  NB_BC95.o [1]
+  .rodata             const    0x0800f9e8      0x4  NB_BC95.o [1]
+  .rodata             const    0x0800f9ec      0x4  NB_BC95.o [1]
+  .rodata             const    0x0800f9f0      0x4  usmart.o [1]
+  .rodata             const    0x0800f9f4      0x4  usmart.o [1]
+  .rodata             const    0x0800f9f8      0x4  usmart.o [1]
+  .rodata             const    0x0800f9fc      0x0  zero_init3.o [5]
+  .rodata             const    0x0800f9fc      0x0  packbits_init.o [5]
+  Initializer bytes   const    0x0800f9fc    0x1e5  <for P2 s0>
+                             - 0x0800fbe1   0xfba1
+
+"P2":                                      0x12e80
+  P2 s0                        0x20000000    0x68c  <Init block>
+    .vector           inited   0x20000000    0x400  los_hwi.o [1]
+    .data             inited   0x20000400     0xf4  usmart_config.o [1]
+    .data             inited   0x200004f4     0xa0  los_inspect_entry.o [1]
+    .data             inited   0x20000594     0x1c  usmart.o [1]
+    .data             inited   0x200005b0     0x18  usmart_config.o [1]
+    .data             inited   0x200005c8     0x14  los_api_msgqueue.o [1]
+    .data             inited   0x200005dc     0x10  NB_Board_Cfg.o [1]
+    .data             inited   0x200005ec      0xc  NB_Board_Cfg.o [1]
+    .data             inited   0x200005f8      0xc  NB_Board_Cfg.o [1]
+    .data             inited   0x20000604      0xc  NB_Board_Cfg.o [1]
+    .data             inited   0x20000610      0x4  NB_BC95.o [1]
+    .data             inited   0x20000614      0x4  NB_BC95.o [1]
+    .data             inited   0x20000618      0x4  NB_BC95.o [1]
+    .data             inited   0x2000061c      0x4  NB_BC95.o [1]
+    .data             inited   0x20000620      0x4  NB_BC95.o [1]
+    .data             inited   0x20000624      0x4  NB_BC95.o [1]
+    .data             inited   0x20000628      0x4  NB_BC95.o [1]
+    .data             inited   0x2000062c      0x4  NB_BC95.o [1]
+    .data             inited   0x20000630      0x4  NB_BC95.o [1]
+    .data             inited   0x20000634      0x4  NB_BC95.o [1]
+    .data             inited   0x20000638      0x4  NB_BC95.o [1]
+    .data             inited   0x2000063c      0x4  NB_BC95.o [1]
+    .data             inited   0x20000640      0x4  NB_BC95.o [1]
+    .data             inited   0x20000644      0x4  NB_BC95.o [1]
+    .data             inited   0x20000648      0x4  NB_BC95.o [1]
+    .data             inited   0x2000064c      0x4  NB_BC95.o [1]
+    .data             inited   0x20000650      0x4  NB_BC95.o [1]
+    .data             inited   0x20000654      0x4  NB_BC95.o [1]
+    .data             inited   0x20000658      0x4  NB_BC95.o [1]
+    .data             inited   0x2000065c      0x4  NB_BC95.o [1]
+    .data             inited   0x20000660      0x4  NB_BC95.o [1]
+    .data             inited   0x20000664      0x4  NB_BC95.o [1]
+    .data             inited   0x20000668      0x4  stm32f4xx_hal.o [1]
+    .data             inited   0x2000066c      0x4  switch_control.o [1]
+    .data             inited   0x20000670      0x4  switch_control.o [1]
+    .data             inited   0x20000674      0x4  switch_control.o [1]
+    .data             inited   0x20000678      0x4  switch_control.o [1]
+    .data             inited   0x2000067c      0x4  system_stm32f4xx.o [1]
+    __DLIB_PERTHREAD  inited   0x20000680      0x4  strtok.o [3]
+    __DLIB_PERTHREAD  inited   0x20000684      0x4  errno.o [3]
+    .data             inited   0x20000688      0x2  delay.o [1]
+    .data             inited   0x2000068a      0x1  delay.o [1]
+    .data             inited   0x2000068b      0x1  stm32f4xx_hal.o [1]
+  .bss                zero     0x2000068c  0x10000  los_memory.o [1]
+  .bss                zero     0x2001068c    0x7f8  App_debug.o [1]
+  .bss                zero     0x20010e84    0x400  los_hwi.o [1]
+  .bss                zero     0x20011284    0x400  oled_driver.o [1]
+  .bss                zero     0x20011684    0x240  los_api_static_mem.o [1]
+  .bss                zero     0x200118c4    0x204  NB_BC95.o [1]
+  .bss                zero     0x20011ac8    0x204  NB_BC95.o [1]
+  .bss                zero     0x20011ccc    0x200  usart_debug_driver.o [1]
+  .bss                zero     0x20011ecc    0x12c  usart_nb_iot_driver.o [1]
+  .bss                zero     0x20011ff8    0x12c  usart_nb_iot_driver.o [1]
+  .bss                zero     0x20012124     0xd0  los_swtmr.o [1]
+  .bss                zero     0x200121f4     0x64  spi3_stc_driver.o [1]
+  .bss                zero     0x20012258      0xc  los_api_event.o [1]
+  .bss                zero     0x20012268     0x60  App_switch_control.o [1]
+  .bss                zero     0x200122c8     0x60  usart_nb_iot_driver.o [1]
+  .bss                zero     0x20012328     0x60  usart_nb_iot_driver.o [1]
+  .bss                zero     0x20012388     0x58  spi.o [1]
+  .bss                zero     0x200123e0     0x58  spi3_stc_driver.o [1]
+  .bss                zero     0x20012438     0x40  los_memstat.o [1]
+  .bss                zero     0x20012478     0x40  usart_debug_driver.o [1]
+  .bss                zero     0x200124b8     0x40  usart_nb_iot_driver.o [1]
+  .bss                zero     0x200124f8     0x40  usart_serialscreen_driver.o [1]
+  .bss                zero     0x20012538     0x28  NB_BC95.o [1]
+  .bss                zero     0x20012560     0x18  NB_BC95.o [1]
+  .bss                zero     0x20012578      0x8  los_mux.o [1]
+  .bss                zero     0x20012580      0x8  los_sem.o [1]
+  .bss                zero     0x20012588      0x8  los_task.o [1]
+  .bss                zero     0x20012590      0x8  los_task.o [1]
+  .bss                zero     0x20012598      0x8  los_task.o [1]
+  .bss                zero     0x200125a0      0x8  los_task.o [1]
+  .bss                zero     0x200125a8      0x8  los_task.o [1]
+  .bss                zero     0x200125b0      0x8  los_tick.o [1]
+  .bss                zero     0x200125b8      0x8  los_timeslice.o [1]
+  .bss                zero     0x200125c0      0x8  NB_BC95.o [1]
+  .bss                zero     0x200125c8      0x8  xxmemxmalloc.o [3]
+  .bss                zero     0x200125d0      0x4  App_debug.o [1]
+  .bss                zero     0x200125d4      0x4  App_NB_control.o [1]
+  .bss                zero     0x200125d8      0x4  los_api_event.o [1]
+  .bss                zero     0x200125dc      0x4  los_api_msgqueue.o [1]
+  .bss                zero     0x200125e0      0x4  los_api_mutex.o [1]
+  .bss                zero     0x200125e4      0x4  los_api_mutex.o [1]
+  .bss                zero     0x200125e8      0x4  los_api_mutex.o [1]
+  .bss                zero     0x200125ec      0x4  los_api_sem.o [1]
+  .bss                zero     0x200125f0      0x4  los_api_sem.o [1]
+  .bss                zero     0x200125f4      0x4  los_api_sem.o [1]
+  .bss                zero     0x200125f8      0x4  los_api_task.o [1]
+  .bss                zero     0x200125fc      0x4  los_api_task.o [1]
+  .bss                zero     0x20012600      0x4  los_api_timer.o [1]
+  .bss                zero     0x20012604      0x4  los_api_timer.o [1]
+  .bss                zero     0x20012608      0x4  los_bsp_adapter.o [1]
+  .bss                zero     0x2001260c      0x4  los_config.o [1]
+  .bss                zero     0x20012610      0x4  los_config.o [1]
+  .bss                zero     0x20012614      0x4  los_config.o [1]
+  .bss                zero     0x20012618      0x4  los_demo_entry.o [1]
+  .bss                zero     0x2001261c      0x4  los_hw_tick.o [1]
+  .bss                zero     0x20012620      0x4  los_hwi.o [1]
+  .bss                zero     0x20012624      0x4  los_mux.o [1]
+  .bss                zero     0x20012628      0x4  los_priqueue.o [1]
+  .bss                zero     0x2001262c      0x4  los_queue.o [1]
+  .bss                zero     0x20012630      0x4  los_sem.o [1]
+  .bss                zero     0x20012634      0x4  los_swtmr.o [1]
+  .bss                zero     0x20012638      0x4  los_swtmr.o [1]
+  .bss                zero     0x2001263c      0x4  los_swtmr.o [1]
+  .bss                zero     0x20012640      0x4  los_swtmr.o [1]
+  .bss                zero     0x20012644      0x4  los_task.o [1]
+  .bss                zero     0x20012648      0x4  los_task.o [1]
+  .bss                zero     0x2001264c      0x4  los_task.o [1]
+  .bss                zero     0x20012650      0x4  los_task.o [1]
+  .bss                zero     0x20012654      0x4  los_task.o [1]
+  .bss                zero     0x20012658      0x4  los_task.o [1]
+  .bss                zero     0x2001265c      0x4  timer_user_poll.o [1]
+  .bss                zero     0x20012660      0x4  timer_user_poll.o [1]
+  .bss                zero     0x20012664      0x4  timer_user_poll.o [1]
+  .bss                zero     0x20012668      0x4  usart_nb_iot_driver.o [1]
+  .bss                zero     0x2001266c      0x2  los_task.o [1]
+  .bss                zero     0x2001266e      0x2  NB_BC95.o [1]
+  .bss                zero     0x20012670      0x2  usart_debug_driver.o [1]
+  .bss                zero     0x20012672      0x2  usart_debug_driver.o [1]
+  .bss                zero     0x20012674      0x2  usart_nb_iot_driver.o [1]
+  .bss                zero     0x20012676      0x1  App_debug.o [1]
+  .bss                zero     0x20012677      0x1  App_NB_control.o [1]
+  .bss                zero     0x20012678      0x1  App_NB_control.o [1]
+  .bss                zero     0x20012679      0x1  spi3_stc_driver.o [1]
+  .bss                zero     0x2001267a      0x1  timer_user_poll.o [1]
+  CSTACK                       0x20012680    0x800  <Block>
+    CSTACK            uninit   0x20012680    0x800  <Block tail>
+                             - 0x20012e80  0x12e80
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x11fef:
+          0x2000068c  0x11fef
+
+Copy/packbits (__iar_packbits_init3)
+    1 source range, total size 0x1e5 (28% of destination):
+          0x0800f9fc    0x1e5
+    1 destination range, total size 0x68c:
+          0x20000000    0x68c
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                       ro code  ro data  rw data
+    ------                       -------  -------  -------
+C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj: [1]
+    App_NB_control.o               1 744      872        6
+    App_debug.o                      796      268    2 045
+    App_switch_control.o             264       80       96
+    NB_BC95.o                      5 132      501    1 194
+    NB_Board.o                       348
+    NB_Board_Cfg.o                             15       52
+    algorithm.o                       28
+    bsp_gpio.o                       288
+    delay.o                          216        1        3
+    device_protocol.o                412
+    gpio_beep_driver.o                48
+    gpio_leds_driver.o               104
+    gpio_powctrl_driver.o            116
+    los_api_dynamic_mem.o            200      156
+    los_api_event.o                  324      288       16
+    los_api_list.o                   348      192
+    los_api_msgqueue.o               444      286       24
+    los_api_mutex.o                  464      480       12
+    los_api_sem.o                    468      496       12
+    los_api_static_mem.o             220      200      576
+    los_api_systick.o                172      112
+    los_api_task.o                   492      512        8
+    los_api_timer.o                  472      420        8
+    los_bsp_adapter.o                488        9        4
+    los_config.o                     228                12
+    los_demo_entry.o                 120       44        4
+    los_dispatch_iar.o               240
+    los_event.o                      820
+    los_hw.o                         524
+    los_hw_tick.o                     68                 4
+    los_hwi.o                        264      296    2 052
+    los_inspect_entry.o               96      107      160
+    los_membox.o                     380
+    los_memory.o                   1 274            65 536
+    los_memstat.o                     92                64
+    los_misc.o                        24
+    los_multipledlinkhead.o          366
+    los_mux.o                      1 000                12
+    los_priqueue.o                   264                 4
+    los_queue.o                    1 572                 4
+    los_sem.o                        852                12
+    los_startup_iar.o                 80
+    los_swtmr.o                    1 320       12      224
+    los_sys.o                         20
+    los_task.o                     3 152       12       66
+    los_tick.o                        40                 8
+    los_timeslice.o                   96                 8
+    main.o                           254       72
+    oled_driver.o                  1 108    2 684    1 024
+    spi.o                            244                88
+    spi3_stc_driver.o                332               189
+    stm32f4xx_hal.o                  140        2        5
+    stm32f4xx_hal_cortex.o           472      108
+    stm32f4xx_hal_dma.o            2 168      112
+    stm32f4xx_hal_gpio.o           1 480      104
+    stm32f4xx_hal_msp.o               94
+    stm32f4xx_hal_rcc.o            2 244      104
+    stm32f4xx_hal_spi.o              576      104
+    stm32f4xx_hal_uart.o           3 076      104
+    switch_control.o                 588        5       16
+    system_stm32f4xx.o                         25        4
+    timer_user_poll.o                156                13
+    usart_debug_driver.o             580      100      580
+    usart_nb_iot_driver.o          2 048      116      862
+    usart_serialscreen_driver.o      404      104       64
+    usmart.o                       1 896    1 118       28
+    usmart_config.o                           157      268
+    usmart_str.o                   1 616        8
+    xor.o                             34
+    ------------------------------------------------------
+    Total:                        45 990   10 386   75 367
+
+command line: [2]
+    ------------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    abort.o                            6
+    div.o                             14
+    errno.o                           12        1        4
+    exit.o                             4
+    low_level_init.o                   4
+    printf.o                          36
+    putchar.o                         40
+    snprintf.o                        68
+    sprintf.o                         52
+    strcspn.o                         34
+    strspn.o                          34
+    strstr.o                          44
+    strtok.o                          76        1        4
+    strtoul.o                          4
+    vsnprint.o                        60
+    xprintffull.o                  3 502
+    xprout.o                          22
+    xsnprout.o                        26
+    xsprout.o                         10
+    xstoul.o                         412
+    xtls.o                             2
+    xxmemxfree.o                     128
+    xxmemxmalloc.o                                       8
+    ------------------------------------------------------
+    Total:                         4 590        2       16
+
+m7M_tls.a: [4]
+    DblAdd.o                         212
+    DblCmpGe.o                        46
+    DblCmpLe.o                        46
+    DblDiv.o                         598
+    DblMul.o                         418
+    DblSub.o                         384
+    DblToI32.o                        88
+    I32ToDbl.o                        48
+    fpinit_M.o                        34
+    xdnorm.o                          66
+    xdscale.o                        280
+    ------------------------------------------------------
+    Total:                         2 220
+
+rt7M_tl.a: [5]
+    ABImemclr4.o                       6
+    ABImemcpy_unaligned.o            118
+    ABImemset.o                      102
+    ABImemset48.o                     50
+    I64DivMod.o                      238
+    I64DivZer.o                        2
+    cexit.o                           10
+    cmain.o                           26
+    cstartup_M.o                      12
+    data_init.o                       40
+    memchr.o                          88
+    packbits_init.o                  208
+    strchr.o                          22
+    strlen.o                          54
+    zero_init3.o                      64
+    ------------------------------------------------------
+    Total:                         1 040
+
+shb_l.a: [6]
+    dwrite.o                          30
+    exit.o                            20
+    iarwrite.o                        34
+    iarwstdswo.o                      76
+    write.o                           16
+    ------------------------------------------------------
+    Total:                           176
+
+    Gaps                              25        8        4
+    Linker created                             44    2 048
+----------------------------------------------------------
+    Grand Total:                  54 041   10 440   77 435
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address     Size  Type      Object
+-----                      -------     ----  ----      ------
+.iar.init_table$$Base   0x0800e928            --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0800e954            --   Gb  - Linker created -
+?main                   0x0800ed19           Code  Gb  cmain.o [5]
+AHBPrescTable           0x0800f61c     0x10  Data  Gb  system_stm32f4xx.o [1]
+APBPrescTable           0x0800f984      0x8  Data  Gb  system_stm32f4xx.o [1]
+APP_STATE               0x20012677      0x1  Data  Gb  App_NB_control.o [1]
+APP_STATEset            0x0800a065      0x6  Code  Gb  App_NB_control.o [1]
+AT_CEREG                0x20000624      0x4  Data  Gb  NB_BC95.o [1]
+AT_CFUN                 0x20000638      0x4  Data  Gb  NB_BC95.o [1]
+AT_CGATT                0x20000630      0x4  Data  Gb  NB_BC95.o [1]
+AT_CGMI                 0x20000614      0x4  Data  Gb  NB_BC95.o [1]
+AT_CGMM                 0x20000618      0x4  Data  Gb  NB_BC95.o [1]
+AT_CGMR                 0x2000061c      0x4  Data  Gb  NB_BC95.o [1]
+AT_CGSN                 0x20000620      0x4  Data  Gb  NB_BC95.o [1]
+AT_CIMI                 0x20000634      0x4  Data  Gb  NB_BC95.o [1]
+AT_CMEE                 0x2000063c      0x4  Data  Gb  NB_BC95.o [1]
+AT_CSCON                0x20000628      0x4  Data  Gb  NB_BC95.o [1]
+AT_CSQ                  0x2000062c      0x4  Data  Gb  NB_BC95.o [1]
+AT_NBAND                0x20000664      0x4  Data  Gb  NB_BC95.o [1]
+AT_NCDP                 0x20000650      0x4  Data  Gb  NB_BC95.o [1]
+AT_NMGR                 0x20000644      0x4  Data  Gb  NB_BC95.o [1]
+AT_NMGS                 0x20000640      0x4  Data  Gb  NB_BC95.o [1]
+AT_NNMI                 0x20000648      0x4  Data  Gb  NB_BC95.o [1]
+AT_NSMI                 0x2000064c      0x4  Data  Gb  NB_BC95.o [1]
+AT_NSOCL                0x20000660      0x4  Data  Gb  NB_BC95.o [1]
+AT_NSOCR                0x20000654      0x4  Data  Gb  NB_BC95.o [1]
+AT_NSORF                0x2000065c      0x4  Data  Gb  NB_BC95.o [1]
+AT_NSOST                0x20000658      0x4  Data  Gb  NB_BC95.o [1]
+AT_SYNC                 0x20000610      0x4  Data  Gb  NB_BC95.o [1]
+AppSetIrq               0x08006e7f     0x34  Code  Gb  los_bsp_adapter.o [1]
+BC95_FxnTable           0x0800e398     0x38  Data  Gb  NB_BC95.o [1]
+BEEP_Init               0x0800ad09     0x10  Code  Gb  gpio_beep_driver.o [1]
+BSP_GPIO_Init           0x0800a459     0x28  Code  Gb  bsp_gpio.o [1]
+CSTACK$$Base            0x20012680            --   Gb  - Linker created -
+CSTACK$$Limit           0x20012e80            --   Gb  - Linker created -
+DEBUG_UART_MspInit      0x08005819     0xb4  Code  Gb  usart_debug_driver.o [1]
+DEBUG_USART_Handle      0x20012478     0x40  Data  Gb  usart_debug_driver.o [1]
+DEBUG_USART_Handle_Transmit
+                        0x080058e5     0x24  Code  Gb  usart_debug_driver.o [1]
+DEBUG_USART_Init        0x080057b1     0x68  Code  Gb  usart_debug_driver.o [1]
+DMA2_Stream6_IRQn_IRQHandler
+                        0x080079f5      0xc  Code  Gb  usart_nb_iot_driver.o [1]
+DMA_CalcBaseAndBitshift
+                        0x080061db     0x2e  Code  Lc  stm32f4xx_hal_dma.o [1]
+DMA_CheckFifoParam      0x0800625d     0x9c  Code  Lc  stm32f4xx_hal_dma.o [1]
+DMA_SetConfig           0x080061ad     0x2e  Code  Lc  stm32f4xx_hal_dma.o [1]
+Display_print           0x0800b221     0x34  Code  Gb  oled_driver.o [1]
+Display_print2          0x0800b1f5     0x2c  Code  Gb  oled_driver.o [1]
+Example_Dyn_Mem         0x0800da61     0xc8  Code  Gb  los_api_dynamic_mem.o [1]
+Example_Event           0x0800d755     0x58  Code  Gb  los_api_event.o [1]
+Example_GetTick         0x0800db29     0x98  Code  Gb  los_api_systick.o [1]
+Example_MsgQueue        0x0800d4b5     0x88  Code  Gb  los_api_msgqueue.o [1]
+Example_MutexLock       0x0800d297     0xd0  Code  Gb  los_api_mutex.o [1]
+Example_MutexTask1      0x0800d1ed     0x6c  Code  Lc  los_api_mutex.o [1]
+Example_MutexTask2      0x0800d259     0x3e  Code  Lc  los_api_mutex.o [1]
+Example_SemTask1        0x0800d019     0x66  Code  Lc  los_api_sem.o [1]
+Example_SemTask2        0x0800d07f     0x36  Code  Lc  los_api_sem.o [1]
+Example_Semphore        0x0800d0b5     0xea  Code  Gb  los_api_sem.o [1]
+Example_SndRcvEvent     0x0800d7ad     0xb2  Code  Gb  los_api_event.o [1]
+Example_StaticMem       0x0800d899     0xdc  Code  Gb  los_api_static_mem.o [1]
+Example_TaskHi          0x080094e5     0x86  Code  Lc  los_api_task.o [1]
+Example_TaskLo          0x0800956b     0x6a  Code  Lc  los_api_task.o [1]
+Example_TskCaseEntry    0x080095d5     0x9e  Code  Gb  los_api_task.o [1]
+Example_list            0x0800d5c3     0xe8  Code  Gb  los_api_list.o [1]
+Example_swTimer         0x0800cea7    0x116  Code  Gb  los_api_timer.o [1]
+GPIO_PORTx_CLK_ENABLE   0x0800a37d     0xdc  Code  Lc  bsp_gpio.o [1]
+HAL_DMA_Abort_IT        0x08005f7b     0x28  Code  Gb  stm32f4xx_hal_dma.o [1]
+HAL_DMA_DeInit          0x08005db5    0x118  Code  Gb  stm32f4xx_hal_dma.o [1]
+HAL_DMA_IRQHandler      0x08005fa3    0x20a  Code  Gb  stm32f4xx_hal_dma.o [1]
+HAL_DMA_Init            0x08005a81    0x334  Code  Gb  stm32f4xx_hal_dma.o [1]
+HAL_DMA_Start_IT        0x08005ecd     0xae  Code  Gb  stm32f4xx_hal_dma.o [1]
+HAL_GPIO_DeInit         0x0800737d    0x16c  Code  Gb  stm32f4xx_hal_gpio.o [1]
+HAL_GPIO_Init           0x08006fb1    0x3cc  Code  Gb  stm32f4xx_hal_gpio.o [1]
+HAL_GPIO_WritePin       0x080074e9     0x42  Code  Gb  stm32f4xx_hal_gpio.o [1]
+HAL_GetTick             0x080059e5      0x8  Code  Gb  timer_user_poll.o [1]
+HAL_Init                0x08006be1     0x3a  Code  Gb  stm32f4xx_hal.o [1]
+HAL_InitTick            0x08006c1b     0x40  Code  Wk  stm32f4xx_hal.o [1]
+HAL_MspInit             0x08008331     0x5e  Code  Gb  stm32f4xx_hal_msp.o [1]
+HAL_NVIC_DisableIRQ     0x080076fd     0x1e  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_NVIC_EnableIRQ      0x080076df     0x1e  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority    0x0800769d     0x42  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                        0x08007673     0x2a  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_RCC_ClockConfig     0x08006825    0x28c  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_GetHCLKFreq     0x08006b3f      0x6  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK1Freq    0x08006b45     0x1a  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK2Freq    0x08006b5f     0x1a  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                        0x08006ab1     0x8e  Code  Wk  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_OscConfig       0x080062f9    0x52c  Code  Wk  stm32f4xx_hal_rcc.o [1]
+HAL_SPI_Init            0x0800bd1d    0x228  Code  Gb  stm32f4xx_hal_spi.o [1]
+HAL_SPI_MspInit         0x0800af53     0x12  Code  Gb  spi.o [1]
+HAL_SYSTICK_Config      0x0800771b      0xc  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_UART_ErrorCallback  0x08005037      0x2  Code  Wk  stm32f4xx_hal_uart.o [1]
+HAL_UART_IRQHandler     0x08004ee9    0x146  Code  Gb  stm32f4xx_hal_uart.o [1]
+HAL_UART_Init           0x08004a9d    0x12a  Code  Gb  stm32f4xx_hal_uart.o [1]
+HAL_UART_MspDeInit      0x08007e8f     0x34  Code  Gb  usart_nb_iot_driver.o [1]
+HAL_UART_MspInit        0x080058cd     0x18  Code  Gb  usart_debug_driver.o [1]
+HAL_UART_Receive        0x08004cb7     0xe6  Code  Gb  stm32f4xx_hal_uart.o [1]
+HAL_UART_Receive_DMA    0x08004e33     0xb6  Code  Gb  stm32f4xx_hal_uart.o [1]
+HAL_UART_RxCpltCallback
+                        0x08005033      0x2  Code  Wk  stm32f4xx_hal_uart.o [1]
+HAL_UART_RxHalfCpltCallback
+                        0x08005035      0x2  Code  Wk  stm32f4xx_hal_uart.o [1]
+HAL_UART_Transmit       0x08004bd9     0xde  Code  Gb  stm32f4xx_hal_uart.o [1]
+HAL_UART_Transmit_DMA   0x08004d9d     0x96  Code  Gb  stm32f4xx_hal_uart.o [1]
+HAL_UART_TxCpltCallback
+                        0x0800502f      0x2  Code  Wk  stm32f4xx_hal_uart.o [1]
+HAL_UART_TxHalfCpltCallback
+                        0x08005031      0x2  Code  Wk  stm32f4xx_hal_uart.o [1]
+HWAtrrs_object          0x20000604      0xc  Data  Gb  NB_Board_Cfg.o [1]
+InStream_Read           0x0800d975     0x22  Code  Lc  packbits_init.o [5]
+InitT_ALL_sw_set_statusbackcall
+                        0x080082b9     0x64  Code  Gb  switch_control.o [1]
+InitT_sw_set_statusbackcall
+                        0x080082a7     0x12  Code  Gb  switch_control.o [1]
+LCD_Print               0x0800b255     0x2c  Code  Gb  oled_driver.o [1]
+LEDs_Init               0x0800aca1     0x10  Code  Gb  gpio_leds_driver.o [1]
+LOS_Align               0x080048b9     0x18  Code  Gb  los_misc.o [1]
+LOS_CyclePerTickGet     0x0800a1cd      0x4  Code  Gb  los_sys.o [1]
+LOS_DLnkInitMultiHead   0x080049f9     0x1e  Code  Gb  los_multipledlinkhead.o [1]
+LOS_DLnkMultiHead       0x08004a17     0x28  Code  Gb  los_multipledlinkhead.o [1]
+LOS_DLnkNextMultiHead   0x08003fad     0x12  Code  Lc  los_memory.o [1]
+LOS_Demo_Entry          0x08006f5d     0x42  Code  Gb  los_demo_entry.o [1]
+LOS_Demo_Tskfunc        0x08006f43     0x1a  Code  Lc  los_demo_entry.o [1]
+LOS_EnableTick          0x08006c89      0xc  Code  Gb  los_config.o [1]
+LOS_EventClear          0x0800cdf1     0x24  Code  Gb  los_event.o [1]
+LOS_EventInit           0x0800cb57     0x1a  Code  Gb  los_event.o [1]
+LOS_EventPoll           0x0800cb71     0x50  Code  Gb  los_event.o [1]
+LOS_EventRead           0x0800cbc1    0x152  Code  Gb  los_event.o [1]
+LOS_EventWrite          0x0800cd13     0xde  Code  Gb  los_event.o [1]
+LOS_HwiCreate           0x0800840d     0x68  Code  Gb  los_hwi.o [1]
+LOS_InspectStatusSetByID
+                        0x0800a49d     0x54  Code  Gb  los_inspect_entry.o [1]
+LOS_IntLock             0x080044cf           Code  Gb  los_dispatch_iar.o [1]
+LOS_IntNumGet           0x080044c5           Code  Gb  los_dispatch_iar.o [1]
+LOS_IntRestore          0x080044df           Code  Gb  los_dispatch_iar.o [1]
+LOS_IntUnLock           0x080044d7           Code  Gb  los_dispatch_iar.o [1]
+LOS_KernelInit          0x08006d3d     0x14  Code  Gb  los_config.o [1]
+LOS_ListAdd             0x0800d57f      0xe  Code  Lc  los_api_list.o [1]
+LOS_ListAdd             0x0800cb13      0xe  Code  Lc  los_event.o [1]
+LOS_ListAdd             0x08003f79      0xe  Code  Lc  los_memory.o [1]
+LOS_ListAdd             0x0800849f      0xe  Code  Lc  los_mux.o [1]
+LOS_ListAdd             0x08003c6b      0xe  Code  Lc  los_priqueue.o [1]
+LOS_ListAdd             0x08008887      0xe  Code  Lc  los_queue.o [1]
+LOS_ListAdd             0x0800456b      0xe  Code  Lc  los_sem.o [1]
+LOS_ListAdd             0x0800301b      0xe  Code  Lc  los_task.o [1]
+LOS_ListDelete          0x0800d59d     0x16  Code  Lc  los_api_list.o [1]
+LOS_ListDelete          0x0800cb31     0x16  Code  Lc  los_event.o [1]
+LOS_ListDelete          0x08003f97     0x16  Code  Lc  los_memory.o [1]
+LOS_ListDelete          0x080084bd     0x16  Code  Lc  los_mux.o [1]
+LOS_ListDelete          0x08003c89     0x16  Code  Lc  los_priqueue.o [1]
+LOS_ListDelete          0x080088a5     0x16  Code  Lc  los_queue.o [1]
+LOS_ListDelete          0x08004589     0x16  Code  Lc  los_sem.o [1]
+LOS_ListDelete          0x08003039     0x16  Code  Lc  los_task.o [1]
+LOS_ListEmpty           0x0800d5b3     0x10  Code  Lc  los_api_list.o [1]
+LOS_ListEmpty           0x0800cb47     0x10  Code  Lc  los_event.o [1]
+LOS_ListEmpty           0x080084d3     0x10  Code  Lc  los_mux.o [1]
+LOS_ListEmpty           0x08003c9f     0x10  Code  Lc  los_priqueue.o [1]
+LOS_ListEmpty           0x080088bb     0x10  Code  Lc  los_queue.o [1]
+LOS_ListEmpty           0x0800459f     0x10  Code  Lc  los_sem.o [1]
+LOS_ListEmpty           0x0800304f     0x10  Code  Lc  los_task.o [1]
+LOS_ListInit            0x0800d579      0x6  Code  Lc  los_api_list.o [1]
+LOS_ListInit            0x0800cb0d      0x6  Code  Lc  los_event.o [1]
+LOS_ListInit            0x080048d1      0x6  Code  Lc  los_multipledlinkhead.o [1]
+LOS_ListInit            0x08008499      0x6  Code  Lc  los_mux.o [1]
+LOS_ListInit            0x08003c65      0x6  Code  Lc  los_priqueue.o [1]
+LOS_ListInit            0x08008881      0x6  Code  Lc  los_queue.o [1]
+LOS_ListInit            0x08004565      0x6  Code  Lc  los_sem.o [1]
+LOS_ListInit            0x08003015      0x6  Code  Lc  los_task.o [1]
+LOS_ListTailInsert      0x0800d58d     0x10  Code  Lc  los_api_list.o [1]
+LOS_ListTailInsert      0x0800cb21     0x10  Code  Lc  los_event.o [1]
+LOS_ListTailInsert      0x08003f87     0x10  Code  Lc  los_memory.o [1]
+LOS_ListTailInsert      0x080084ad     0x10  Code  Lc  los_mux.o [1]
+LOS_ListTailInsert      0x08003c79     0x10  Code  Lc  los_priqueue.o [1]
+LOS_ListTailInsert      0x08008895     0x10  Code  Lc  los_queue.o [1]
+LOS_ListTailInsert      0x08004579     0x10  Code  Lc  los_sem.o [1]
+LOS_ListTailInsert      0x08003029     0x10  Code  Lc  los_task.o [1]
+LOS_Log2                0x080048d7    0x11c  Code  Lc  los_multipledlinkhead.o [1]
+LOS_MemAlloc            0x0800437d     0x30  Code  Gb  los_memory.o [1]
+LOS_MemAllocAlign       0x080043ad     0x68  Code  Gb  los_memory.o [1]
+LOS_MemFree             0x08004415     0x5e  Code  Gb  los_memory.o [1]
+LOS_MemInit             0x080042d1     0xac  Code  Gb  los_memory.o [1]
+LOS_MemboxAlloc         0x0800a2a5     0x42  Code  Gb  los_membox.o [1]
+LOS_MemboxClr           0x0800a32d     0x28  Code  Gb  los_membox.o [1]
+LOS_MemboxFree          0x0800a2e7     0x46  Code  Gb  los_membox.o [1]
+LOS_MemboxInit          0x0800a217     0x8e  Code  Gb  los_membox.o [1]
+LOS_MuxCreate           0x08008537     0x5e  Code  Gb  los_mux.o [1]
+LOS_MuxDelete           0x08008595     0x5e  Code  Gb  los_mux.o [1]
+LOS_MuxPend             0x080085f3    0x15a  Code  Gb  los_mux.o [1]
+LOS_MuxPost             0x0800874d     0xf6  Code  Gb  los_mux.o [1]
+LOS_PriqueueDequeue     0x08003d01      0xc  Code  Gb  los_priqueue.o [1]
+LOS_PriqueueEnqueue     0x08003ceb     0x16  Code  Gb  los_priqueue.o [1]
+LOS_PriqueueSize        0x08003d3d     0x26  Code  Gb  los_priqueue.o [1]
+LOS_PriqueueTop         0x08003d0d     0x30  Code  Gb  los_priqueue.o [1]
+LOS_QueueCreate         0x08008a71     0x8c  Code  Gb  los_queue.o [1]
+LOS_QueueDelete         0x08008d91     0x9c  Code  Gb  los_queue.o [1]
+LOS_QueueRead           0x08008afd    0x14e  Code  Gb  los_queue.o [1]
+LOS_QueueWrite          0x08008c4b    0x146  Code  Gb  los_queue.o [1]
+LOS_Schedule            0x08003d75     0x3a  Code  Gb  los_hw.o [1]
+LOS_SemCreate           0x080045fb     0x68  Code  Gb  los_sem.o [1]
+LOS_SemDelete           0x08004663     0x56  Code  Gb  los_sem.o [1]
+LOS_SemPend             0x080046b9    0x110  Code  Gb  los_sem.o [1]
+LOS_SemPost             0x080047c9     0xae  Code  Gb  los_sem.o [1]
+LOS_SetTickSycle        0x08009461      0x6  Code  Gb  los_hw_tick.o [1]
+LOS_Start               0x08006c95     0x12  Code  Gb  los_config.o [1]
+LOS_StartToRun          0x08004475           Code  Gb  los_dispatch_iar.o [1]
+LOS_SwtmrCreate         0x08009161     0x9e  Code  Gb  los_swtmr.o [1]
+LOS_SwtmrDelete         0x080092f7     0x7c  Code  Gb  los_swtmr.o [1]
+LOS_SwtmrStart          0x080091ff     0x7c  Code  Gb  los_swtmr.o [1]
+LOS_SwtmrStop           0x0800927b     0x7c  Code  Gb  los_swtmr.o [1]
+LOS_TaskCreate          0x08003755     0xa6  Code  Gb  los_task.o [1]
+LOS_TaskCreateOnly      0x08003597    0x1be  Code  Gb  los_task.o [1]
+LOS_TaskDelay           0x08003aad     0x70  Code  Gb  los_task.o [1]
+LOS_TaskDelete          0x0800396d    0x140  Code  Gb  los_task.o [1]
+LOS_TaskLock            0x08003b8b     0x1a  Code  Gb  los_task.o [1]
+LOS_TaskResume          0x080037fb     0xa4  Code  Gb  los_task.o [1]
+LOS_TaskSuspend         0x0800389f     0xce  Code  Gb  los_task.o [1]
+LOS_TaskUnlock          0x08003ba5     0x36  Code  Gb  los_task.o [1]
+LOS_TaskYield           0x08003b1d     0x6e  Code  Gb  los_task.o [1]
+LOS_TickCountGet        0x0800a1c5      0x8  Code  Gb  los_sys.o [1]
+LOS_TickHandler         0x0800942d     0x34  Code  Gb  los_hw_tick.o [1]
+LoadInt                 0x08001bf1     0x6e  Code  Lc  xprintffull.o [3]
+LosAdapIntInit          0x08006e3d     0x20  Code  Gb  los_bsp_adapter.o [1]
+LosAdapIrqEnable        0x08006eb3     0x20  Code  Gb  los_bsp_adapter.o [1]
+MX_TIM_Set              0x080059ed      0x6  Code  Gb  timer_user_poll.o [1]
+MX_TIM_Start            0x080059f3     0x18  Code  Gb  timer_user_poll.o [1]
+MX_TIM_Stop             0x08005a0b      0x8  Code  Gb  timer_user_poll.o [1]
+MX_TimerPoll            0x08005a13     0x5c  Code  Gb  timer_user_poll.o [1]
+NBModule_CloseUDP       0x0800b489     0x24  Code  Gb  NB_Board.o [1]
+NBModule_CoAPServer     0x0800b4d9     0x2e  Code  Gb  NB_Board.o [1]
+NBModule_CreateUDP      0x0800b465     0x24  Code  Gb  NB_Board.o [1]
+NBModule_Info           0x0800b41d     0x24  Code  Gb  NB_Board.o [1]
+NBModule_Init           0x0800b3f9     0x24  Code  Gb  NB_Board.o [1]
+NBModule_Main           0x0800b507     0x22  Code  Gb  NB_Board.o [1]
+NBModule_SendData       0x0800b4ad     0x2c  Code  Gb  NB_Board.o [1]
+NBModule_Sign           0x0800b441     0x24  Code  Gb  NB_Board.o [1]
+NBModule_open           0x0800b3cd     0x28  Code  Gb  NB_Board.o [1]
+NB_HAL_UARTDMA_Init     0x08007e5d     0x12  Code  Gb  usart_nb_iot_driver.o [1]
+NB_HAL_UART_Close       0x08007ec3      0xa  Code  Gb  usart_nb_iot_driver.o [1]
+NB_HAL_UART_Write       0x08007e6f     0x20  Code  Gb  usart_nb_iot_driver.o [1]
+NB_HexStrToNum          0x08001393     0xaa  Code  Lc  NB_BC95.o [1]
+NB_Module_IMEI          0x200125d4      0x4  Data  Gb  App_NB_control.o [1]
+NB_MsgreportCb          0x08009d6f    0x210  Code  Gb  App_NB_control.o [1]
+NB_SendCmd              0x08000067     0x3c  Code  Lc  NB_BC95.o [1]
+NB_Strtoul              0x08001381     0x12  Code  Lc  NB_BC95.o [1]
+NB_Task                 0x08009b51    0x21e  Code  Lc  App_NB_control.o [1]
+NB_UART_MspInit         0x080077bd    0x212  Code  Gb  usart_nb_iot_driver.o [1]
+NB_USART_Handle         0x200124b8     0x40  Data  Gb  usart_nb_iot_driver.o [1]
+NB_USART_Handle_Transmit
+                        0x080079cf     0x24  Code  Gb  usart_nb_iot_driver.o [1]
+NB_USART_IDLE_Callback  0x08007a01    0x44a  Code  Gb  usart_nb_iot_driver.o [1]
+NB_USART_Init           0x08007751     0x6c  Code  Gb  usart_nb_iot_driver.o [1]
+NB_USART_RX_BUF         0x20011ff8    0x12c  Data  Gb  usart_nb_iot_driver.o [1]
+NB_USART_Rxlen          0x20012674      0x2  Data  Gb  usart_nb_iot_driver.o [1]
+NVIC_DisableIRQ         0x080075bf     0x16  Code  Lc  stm32f4xx_hal_cortex.o [1]
+NVIC_EnableIRQ          0x080075a9     0x16  Code  Lc  stm32f4xx_hal_cortex.o [1]
+NVIC_EncodePriority     0x08006d9f     0x3e  Code  Lc  los_bsp_adapter.o [1]
+NVIC_EncodePriority     0x080075ff     0x3e  Code  Lc  stm32f4xx_hal_cortex.o [1]
+NVIC_GetPriorityGrouping
+                        0x08006d6f      0xa  Code  Lc  los_bsp_adapter.o [1]
+NVIC_GetPriorityGrouping
+                        0x0800759d      0xc  Code  Lc  stm32f4xx_hal_cortex.o [1]
+NVIC_SetPriority        0x08006d79     0x26  Code  Lc  los_bsp_adapter.o [1]
+NVIC_SetPriority        0x080075d5     0x2a  Code  Lc  stm32f4xx_hal_cortex.o [1]
+NVIC_SetPriorityGrouping
+                        0x08006d51     0x1e  Code  Lc  los_bsp_adapter.o [1]
+NVIC_SetPriorityGrouping
+                        0x08007579     0x24  Code  Lc  stm32f4xx_hal_cortex.o [1]
+OLED_Clear              0x0800b025     0x34  Code  Gb  oled_driver.o [1]
+OLED_DrawPoint          0x0800b059     0x80  Code  Gb  oled_driver.o [1]
+OLED_GRAM               0x20011284    0x400  Data  Lc  oled_driver.o [1]
+OLED_Init               0x0800b281    0x11e  Code  Gb  oled_driver.o [1]
+OLED_Refresh_Gram       0x0800af79     0x50  Code  Gb  oled_driver.o [1]
+OLED_ShowChar           0x0800b0d9     0xca  Code  Gb  oled_driver.o [1]
+OLED_ShowString         0x0800b1a3     0x52  Code  Gb  oled_driver.o [1]
+OLED_WR_Byte            0x0800afc9     0x5c  Code  Gb  oled_driver.o [1]
+OSRunning               0x20012614      0x4  Data  Gb  los_config.o [1]
+OSSchedLock             0x0800bf5d      0x2  Code  Gb  delay.o [1]
+OSSchedUnlock           0x0800bf5f      0x2  Code  Gb  delay.o [1]
+OSTimeDly               0x08006f1d      0xc  Code  Gb  los_bsp_adapter.o [1]
+OSTimeGet               0x080080e5      0x8  Code  Gb  switch_control.o [1]
+OS_ENTER_CRITICAL       0x08006f29      0x8  Code  Gb  los_bsp_adapter.o [1]
+OS_EXIT_CRITICAL        0x08006f31      0x8  Code  Gb  los_bsp_adapter.o [1]
+PendSV_Handler          0x080044ed           Code  Gb  los_dispatch_iar.o [1]
+PowCtrl_Init            0x08009471     0x5e  Code  Gb  gpio_powctrl_driver.o [1]
+Preempt_Sub_Priority2Lite_Prior
+                        0x08006e5d     0x22  Code  Lc  los_bsp_adapter.o [1]
+Printf_Queue_Index      0x200125d0      0x4  Data  Lc  App_debug.o [1]
+Region$$Table$$Base     0x0800e928            --   Gb  - Linker created -
+Region$$Table$$Limit    0x0800e954            --   Gb  - Linker created -
+Reset_Handler           0x0800f62d           Code  Gb  los_startup_iar.o [1]
+SCREEN_UART_MspInit     0x08007fb9     0xb0  Code  Gb  usart_serialscreen_driver.o [1]
+SCREEN_USART_Handle     0x200124f8     0x40  Data  Gb  usart_serialscreen_driver.o [1]
+SCREEN_USART_Handle_Transmit
+                        0x08008069     0x24  Code  Gb  usart_serialscreen_driver.o [1]
+SCREEN_USART_Init       0x08007f51     0x68  Code  Gb  usart_serialscreen_driver.o [1]
+SPI3RX                  0x200121f4     0x64  Data  Gb  spi3_stc_driver.o [1]
+SPI3RX_COUNT            0x20012679      0x1  Data  Gb  spi3_stc_driver.o [1]
+SPI3_Handler            0x200123e0     0x58  Data  Gb  spi3_stc_driver.o [1]
+SPI3_IRQHandler         0x0800ad39     0x32  Code  Gb  spi3_stc_driver.o [1]
+SPI3_Init               0x0800ad6b     0x74  Code  Gb  spi3_stc_driver.o [1]
+SPI3_MspInit            0x0800addf     0x84  Code  Gb  spi3_stc_driver.o [1]
+SPI5_Handler            0x20012388     0x58  Data  Gb  spi.o [1]
+SPI5_Init               0x0800ae85     0x66  Code  Gb  spi.o [1]
+SPI5_MspInit            0x0800aeeb     0x68  Code  Gb  spi.o [1]
+Switch_Task             0x08009a45     0x78  Code  Lc  App_switch_control.o [1]
+SysTick_Config          0x08006ddd     0x30  Code  Lc  los_bsp_adapter.o [1]
+SysTick_Config          0x0800763d     0x36  Code  Lc  stm32f4xx_hal_cortex.o [1]
+SysTick_Handler         0x08006e35      0x8  Code  Gb  los_bsp_adapter.o [1]
+SystemClock_Config      0x080056b5     0xa2  Code  Gb  main.o [1]
+SystemCoreClock         0x2000067c      0x4  Data  Gb  system_stm32f4xx.o [1]
+Task_Debug              0x08009729     0xc8  Code  Lc  App_debug.o [1]
+Timer1_Callback         0x0800ce41     0x28  Code  Lc  los_api_timer.o [1]
+Timer2_Callback         0x0800ce69     0x3e  Code  Lc  los_api_timer.o [1]
+UART_DMAAbortOnError    0x080051d1     0x16  Code  Lc  stm32f4xx_hal_uart.o [1]
+UART_DMAError           0x080050d1     0x5c  Code  Lc  stm32f4xx_hal_uart.o [1]
+UART_DMAReceiveCplt     0x0800507d     0x44  Code  Lc  stm32f4xx_hal_uart.o [1]
+UART_DMARxHalfCplt      0x080050c1      0xe  Code  Lc  stm32f4xx_hal_uart.o [1]
+UART_DMATransmitCplt    0x08005039     0x34  Code  Lc  stm32f4xx_hal_uart.o [1]
+UART_DMATxHalfCplt      0x0800506d      0xe  Code  Lc  stm32f4xx_hal_uart.o [1]
+UART_EndRxTransfer      0x080051b1     0x20  Code  Lc  stm32f4xx_hal_uart.o [1]
+UART_EndTransmit_IT     0x08005257     0x20  Code  Lc  stm32f4xx_hal_uart.o [1]
+UART_EndTxTransfer      0x0800519d     0x14  Code  Lc  stm32f4xx_hal_uart.o [1]
+UART_Receive_IT         0x08005277     0xa0  Code  Lc  stm32f4xx_hal_uart.o [1]
+UART_SetConfig          0x08005317    0x376  Code  Lc  stm32f4xx_hal_uart.o [1]
+UART_Transmit_IT        0x080051e9     0x6e  Code  Lc  stm32f4xx_hal_uart.o [1]
+UART_WaitOnFlagUntilTimeout
+                        0x0800512d     0x70  Code  Lc  stm32f4xx_hal_uart.o [1]
+USART1_IRQHandler       0x08005909     0xb6  Code  Gb  usart_debug_driver.o [1]
+USART2_IRQHandler       0x0800808d     0x3e  Code  Gb  usart_serialscreen_driver.o [1]
+USART6_IRQHandler       0x08007e4d     0x10  Code  Gb  usart_nb_iot_driver.o [1]
+USART_MEMORY            0x2001068c    0x7f8  Data  Lc  App_debug.o [1]
+USART_RX_STA            0x20012670      0x2  Data  Lc  usart_debug_driver.o [1]
+_Error_Handler          0x080056a3     0x12  Code  Gb  main.o [1]
+_GenldFull              0x08002167    0x264  Code  Lc  xprintffull.o [3]
+_LdtobFull              0x08001d65    0x3fc  Code  Lc  xprintffull.o [3]
+_LitobFull              0x08001c5f    0x106  Code  Lc  xprintffull.o [3]
+_PrintfFull             0x08001665    0x586  Code  Gb  xprintffull.o [3]
+_Prout                  0x0800f229     0x16  Code  Gb  xprout.o [3]
+_PutcharsFull           0x080023cb     0x2e  Code  Lc  xprintffull.o [3]
+_SNProut                0x080014a3     0x1a  Code  Gb  xsnprout.o [3]
+_SProut                 0x08001527      0xa  Code  Gb  xsprout.o [3]
+_Strtok_ssave           0x20000680      0x4  Data  Lc  strtok.o [3]
+__aeabi_cdcmple         0x080027a9           Code  Gb  DblCmpLe.o [4]
+__aeabi_cdrcmple        0x080027d9           Code  Gb  DblCmpGe.o [4]
+__aeabi_d2iz            0x08002921           Code  Gb  DblToI32.o [4]
+__aeabi_d2uiz           0x0800294d           Code  Gb  DblToI32.o [4]
+__aeabi_ddiv            0x08002ccd           Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x08002b29           Code  Gb  DblMul.o [4]
+__aeabi_dsub            0x080029a9           Code  Gb  DblSub.o [4]
+__aeabi_errno_addr      0x08002f31      0x6  Code  Gb  errno.o [3]
+__aeabi_i2d             0x08002979           Code  Gb  I32ToDbl.o [4]
+__aeabi_ldiv0           0x08002f3d           Code  Gb  I64DivZer.o [5]
+__aeabi_memclr4         0x0800b6c5           Code  Gb  ABImemclr4.o [5]
+__aeabi_memset          0x0800143d           Code  Gb  ABImemset.o [5]
+__aeabi_ui2d            0x0800298d           Code  Gb  I32ToDbl.o [4]
+__aeabi_uldivmod        0x08002679           Code  Gb  I64DivMod.o [5]
+__cmain                 0x0800ed19           Code  Gb  cmain.o [5]
+__data_Aldata           0x200125c8      0x8  Data  Gb  xxmemxmalloc.o [3]
+__dwrite                0x0800e6ed     0x1e  Code  Gb  dwrite.o [6]
+__exit                  0x0800da4d     0x14  Code  Gb  exit.o [6]
+__iar_Dnorm             0x08002767     0x42  Code  Gb  xdnorm.o [4]
+__iar_Dscale            0x08002809    0x118  Code  Gb  xdscale.o [4]
+__iar_Errno             0x20000684      0x4  Data  Gb  errno.o [3]
+__iar_Memchr            0x08002621           Code  Gb  memchr.o [5]
+__iar_Memset            0x0800143d           Code  Gb  ABImemset.o [5]
+__iar_Memset4_word      0x0800c075           Code  Gb  ABImemset48.o [5]
+__iar_Memset8_word      0x0800c075           Code  Gb  ABImemset48.o [5]
+__iar_Memset_word       0x08001445           Code  Gb  ABImemset.o [5]
+__iar_Stoul             0x080025cd      0x4  Code  Gb  xstoul.o [3]
+__iar_Stoulx            0x08002485    0x142  Code  Gb  xstoul.o [3]
+__iar_Strchr            0x08001511           Code  Gb  strchr.o [5]
+__iar_Strstr            0x08002413     0x2c  Code  Gb  strstr.o [3]
+__iar_d2uiz             0x08002959           Code  Gb  DblToI32.o [4]
+__iar_dadd              0x08002f41           Code  Gb  DblAdd.o [4]
+__iar_data_init3        0x0800e72d     0x28  Code  Gb  data_init.o [5]
+__iar_dlib_perthread_access
+                        0x0800243f      0x2  Code  Gb  xtls.o [3]
+__iar_dsub              0x080029bd           Code  Gb  DblSub.o [4]
+__iar_dsubStart         0x080029cf           Code  Gb  DblSub.o [4]
+__iar_init_vfp          0x0800e905           Code  Gb  fpinit_M.o [4]
+__iar_packbits_init3    0x0800d997     0xae  Code  Gb  packbits_init.o [5]
+__iar_program_start     0x0800f829           Code  Gb  cstartup_M.o [5]
+__iar_sh_stdout_swo     0x0800e015     0x4c  Code  Gb  iarwstdswo.o [6]
+__iar_sh_write          0x0800e70b     0x22  Code  Gb  iarwrite.o [6]
+__iar_ui2d              0x08002991           Code  Gb  I32ToDbl.o [4]
+__iar_unaligned___aeabi_memcpy
+                        0x08001531           Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy4
+                        0x08001551           Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy8
+                        0x08001551           Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_zero_init3        0x0800e2e5     0x40  Code  Gb  zero_init3.o [5]
+__low_level_init        0x0800ed33      0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000           Data  Gb  los_startup_iar.o [1]
+__write                 0x0800e6dd     0x10  Code  Gb  write.o [6]
+_call_main              0x0800ed25           Code  Gb  cmain.o [5]
+_exit                   0x0800ed3d           Code  Gb  cexit.o [5]
+_main                   0x0800ed2f           Code  Gb  cmain.o [5]
+_new_packet_callback    0x08009fa3     0xbe  Code  Lc  App_NB_control.o [1]
+abort                   0x0800da45      0x6  Code  Gb  abort.o [3]
+abuf                    0x200005c8     0x14  Data  Lc  los_api_msgqueue.o [1]
+addr_adjust             0x0800052d     0x98  Code  Gb  NB_BC95.o [1]
+app_platform_print_packet
+                        0x08009f7f     0x24  Code  Gb  App_NB_control.o [1]
+app_sw_blink            0x080081fd     0xaa  Code  Gb  switch_control.o [1]
+app_sw_blink_interface  0x08009abd     0x24  Code  Gb  App_switch_control.o [1]
+app_transmit_packet     0x0800a071     0x7a  Code  Gb  App_NB_control.o [1]
+assert_failed           0x080056a1      0x2  Code  Gb  main.o [1]
+bc95_AsyncNotification  0x080005c9    0x120  Code  Gb  NB_BC95.o [1]
+bc95_closeUDP           0x080008ff     0x62  Code  Gb  NB_BC95.o [1]
+bc95_coapReadMsg        0x08000c11     0x3a  Code  Gb  NB_BC95.o [1]
+bc95_coapReceIndication
+                        0x08000b41      0x6  Code  Gb  NB_BC95.o [1]
+bc95_coapSendMsg        0x08000b47     0xc4  Code  Gb  NB_BC95.o [1]
+bc95_coapSentIndication
+                        0x08000b3b      0x6  Code  Gb  NB_BC95.o [1]
+bc95_coapServer         0x08000acf     0x6c  Code  Gb  NB_BC95.o [1]
+bc95_createUDP          0x080008a9     0x56  Code  Gb  NB_BC95.o [1]
+bc95_getIMSI            0x0800084f      0x8  Code  Gb  NB_BC95.o [1]
+bc95_getSignal          0x0800085d     0x4c  Code  Gb  NB_BC95.o [1]
+bc95_init               0x080007a9     0x4e  Code  Gb  NB_BC95.o [1]
+bc95_main               0x08000d29    0x18a  Code  Gb  NB_BC95.o [1]
+bc95_moduleInfo         0x080007f7     0x4e  Code  Gb  NB_BC95.o [1]
+bc95_open               0x08000775     0x30  Code  Gb  NB_BC95.o [1]
+bc95_receCb             0x080006e9     0x70  Code  Lc  NB_BC95.o [1]
+bc95_receUDP            0x08000a57     0x78  Code  Gb  NB_BC95.o [1]
+bc95_register           0x08000845      0xa  Code  Gb  NB_BC95.o [1]
+bc95_result_handle      0x08000c61     0x7e  Code  Gb  NB_BC95.o [1]
+bc95_sendUDP            0x08000961     0xf6  Code  Gb  NB_BC95.o [1]
+bc95_timeoutCb          0x08000759      0xa  Code  Lc  NB_BC95.o [1]
+bsp_Init                0x08006f0d     0x10  Code  Gb  los_bsp_adapter.o [1]
+callback1               0x2000066c      0x4  Data  Gb  switch_control.o [1]
+callback2               0x20000670      0x4  Data  Gb  switch_control.o [1]
+callback3               0x20000674      0x4  Data  Gb  switch_control.o [1]
+callback4               0x20000678      0x4  Data  Gb  switch_control.o [1]
+cmd_generate            0x08000401     0xb0  Code  Lc  NB_BC95.o [1]
+cmd_isPass              0x080004b5     0x78  Code  Lc  NB_BC95.o [1]
+cmd_next                0x080000e5    0x318  Code  Lc  NB_BC95.o [1]
+cmd_param_init          0x080000bb     0x2a  Code  Lc  NB_BC95.o [1]
+com_fxn                 0x200005ec      0xc  Data  Gb  NB_Board_Cfg.o [1]
+create_NB_Task          0x08009af5     0x5c  Code  Gb  App_NB_control.o [1]
+create_Switch_Task      0x080099ed     0x58  Code  Gb  App_switch_control.o [1]
+create_debug_task       0x080096d1     0x58  Code  Gb  App_debug.o [1]
+debug_output_flag       0x20012676      0x1  Data  Lc  App_debug.o [1]
+debug_print_buffer      0x0800988f     0xf2  Code  Gb  App_debug.o [1]
+debug_print_string      0x08009981     0x3a  Code  Gb  App_debug.o [1]
+debug_printf            0x080097f1     0x56  Code  Gb  App_debug.o [1]
+delay_ms                0x0800bfd1     0x4a  Code  Gb  delay.o [1]
+delay_osschedlock       0x0800bf61      0x8  Code  Lc  delay.o [1]
+delay_osschedunlock     0x0800bf69      0x8  Code  Lc  delay.o [1]
+delay_ostimedly         0x0800bf71      0xc  Code  Lc  delay.o [1]
+delay_us                0x0800bf7d     0x54  Code  Gb  delay.o [1]
+device_buffer_to_packet
+                        0x0800b529     0xd6  Code  Gb  device_protocol.o [1]
+device_packet_to_buffer
+                        0x0800b5ff     0xc6  Code  Gb  device_protocol.o [1]
+digits                  0x080025d0     0x28  Data  Lc  xstoul.o [3]
+div                     0x08002f23      0xe  Code  Gb  div.o [3]
+dprintf_1               0x08006f39      0xa  Code  Gb  los_demo_entry.o [1]
+example_event           0x20012258      0xc  Data  Lc  los_api_event.o [1]
+exit                    0x0800ed37      0x4  Code  Gb  exit.o [3]
+fac_ms                  0x20000688      0x2  Data  Lc  delay.o [1]
+fac_us                  0x2000068a      0x1  Data  Lc  delay.o [1]
+free                    0x0800d6d5     0x7a  Code  Gb  xxmemxfree.o [3]
+gInspect                0x200004f4     0xa0  Data  Lc  los_inspect_entry.o [1]
+gNBReceBuf              0x200118c4    0x204  Data  Gb  NB_BC95.o [1]
+gNBSendBuf              0x20011ac8    0x204  Data  Gb  NB_BC95.o [1]
+gTickDelta              0x20012664      0x4  Data  Gb  timer_user_poll.o [1]
+gTickStart              0x20012660      0x4  Data  Gb  timer_user_poll.o [1]
+gTimeOpenFlag           0x2001267a      0x1  Data  Gb  timer_user_poll.o [1]
+g_TestTaskID            0x200125d8      0x4  Data  Lc  los_api_event.o [1]
+g_TestTaskID01          0x200125e4      0x4  Data  Gb  los_api_mutex.o [1]
+g_TestTaskID01          0x200125ec      0x4  Data  Lc  los_api_sem.o [1]
+g_TestTaskID02          0x200125e8      0x4  Data  Gb  los_api_mutex.o [1]
+g_TestTaskID02          0x200125f0      0x4  Data  Lc  los_api_sem.o [1]
+g_Testmux01             0x200125e0      0x4  Data  Lc  los_api_mutex.o [1]
+g_TskMemUsedInfo        0x20012438     0x40  Data  Gb  los_memstat.o [1]
+g_at_cmd                0x20012560     0x18  Data  Lc  NB_BC95.o [1]
+g_bTaskScheduled        0x20012654      0x4  Data  Gb  los_task.o [1]
+g_bc95_status           0x20012538     0x28  Data  Lc  NB_BC95.o [1]
+g_event_regTable        0x2001266e      0x2  Data  Lc  NB_BC95.o [1]
+g_nb_state              0x200125c0      0x8  Data  Lc  NB_BC95.o [1]
+g_pfnTskSwitchHook      0x20012658      0x4  Data  Gb  los_task.o [1]
+g_pstAllMux             0x20012624      0x4  Data  Gb  los_mux.o [1]
+g_pstAllQueue           0x2001262c      0x4  Data  Gb  los_queue.o [1]
+g_pstAllSem             0x20012630      0x4  Data  Gb  los_sem.o [1]
+g_pstLosPriorityQueueList
+                        0x20012628      0x4  Data  Gb  los_priqueue.o [1]
+g_pstTaskCBArray        0x20012644      0x4  Data  Gb  los_task.o [1]
+g_stLosFreeTask         0x20012598      0x8  Data  Gb  los_task.o [1]
+g_stLosTask             0x20012588      0x8  Data  Gb  los_task.o [1]
+g_stTaskTimeSlice       0x200125b8      0x8  Data  Gb  los_timeslice.o [1]
+g_stTaskTimerList       0x20012590      0x8  Data  Gb  los_task.o [1]
+g_stTskRecyleList       0x200125a0      0x8  Data  Gb  los_task.o [1]
+g_stTskSortLink         0x200125a8      0x8  Data  Gb  los_task.o [1]
+g_stUnusedMuxList       0x20012578      0x8  Data  Gb  los_mux.o [1]
+g_stUnusedSemList       0x20012580      0x8  Data  Gb  los_sem.o [1]
+g_sys_mem_addr_end      0x2001260c      0x4  Data  Gb  los_config.o [1]
+g_timercount1           0x20012600      0x4  Data  Lc  los_api_timer.o [1]
+g_timercount2           0x20012604      0x4  Data  Lc  los_api_timer.o [1]
+g_ucMemStart            0x2000068c  0x10000  Data  Gb  los_memory.o [1]
+g_ucycle_per_tick       0x20012608      0x4  Data  Lc  los_bsp_adapter.o [1]
+g_ullTickCount          0x200125b0      0x8  Data  Gb  los_tick.o [1]
+g_usLosTaskLock         0x2001266c      0x2  Data  Gb  los_task.o [1]
+g_usSemID               0x200125f4      0x4  Data  Lc  los_api_sem.o [1]
+g_use_ram_vect          0x08001662      0x1  Data  Gb  los_bsp_adapter.o [1]
+g_uwCyclesPerTick       0x2001261c      0x4  Data  Gb  los_hw_tick.o [1]
+g_uwDemoTaskID          0x20012618      0x4  Data  Lc  los_demo_entry.o [1]
+g_uwIdleTaskID          0x2001264c      0x4  Data  Gb  los_task.o [1]
+g_uwQueue               0x200125dc      0x4  Data  Lc  los_api_msgqueue.o [1]
+g_uwSwtmrTaskID         0x20012650      0x4  Data  Gb  los_task.o [1]
+g_uwTskHiID             0x200125f8      0x4  Data  Lc  los_api_task.o [1]
+g_uwTskLoID             0x200125fc      0x4  Data  Lc  los_api_task.o [1]
+g_uwTskMaxNum           0x20012648      0x4  Data  Gb  los_task.o [1]
+g_vuwIntCount           0x20012620      0x4  Data  Gb  los_hwi.o [1]
+get_uart_rx_buffer      0x080057a1      0x4  Code  Gb  usart_debug_driver.o [1]
+get_uart_rx_len         0x080057a5      0x4  Code  Gb  usart_debug_driver.o [1]
+get_uint16_value_from_buffer
+                        0x0800c045      0x4  Code  Gb  algorithm.o [1]
+get_uint8_value_from_buffer
+                        0x0800c04d      0x4  Code  Gb  algorithm.o [1]
+get_xor_value           0x0800c051     0x22  Code  Gb  xor.o [1]
+hdma_usart6_rx          0x200122c8     0x60  Data  Gb  usart_nb_iot_driver.o [1]
+hdma_usart6_tx          0x20012328     0x60  Data  Gb  usart_nb_iot_driver.o [1]
+hex_to_string           0x08009847     0x48  Code  Lc  App_debug.o [1]
+len                     0x20012672      0x2  Data  Lc  usart_debug_driver.o [1]
+m_aucSwTmrHandlerPool   0x20012124     0xd0  Data  Gb  los_swtmr.o [1]
+m_aucSysMem0            0x20012610      0x4  Data  Gb  los_config.o [1]
+m_pstHwiForm            0x20000000    0x400  Data  Gb  los_hwi.o [1]
+m_pstHwiSlaveForm       0x20010e84    0x400  Data  Gb  los_hwi.o [1]
+m_pstSwtmrCBArray       0x20012638      0x4  Data  Gb  los_swtmr.o [1]
+m_pstSwtmrFreeList      0x2001263c      0x4  Data  Gb  los_swtmr.o [1]
+m_pstSwtmrSortList      0x20012640      0x4  Data  Gb  los_swtmr.o [1]
+m_uwSwTmrHandlerQueue   0x20012634      0x4  Data  Lc  los_swtmr.o [1]
+main                    0x08005769     0x36  Code  Gb  main.o [1]
+memchr                  0x08002621           Code  Gb  memchr.o [5]
+msgBuf                  0x20011ecc    0x12c  Data  Lc  usart_nb_iot_driver.o [1]
+nb95_info_process       0x0800f96c      0x8  Data  Gb  NB_BC95.o [1]
+nb95_init_process       0x0800f60c     0x10  Data  Gb  NB_BC95.o [1]
+nb95_udpcl_process      0x0800f9e8      0x4  Data  Gb  NB_BC95.o [1]
+nb95_udpcr_process      0x0800f974      0x8  Data  Gb  NB_BC95.o [1]
+nb95_udpst_process      0x0800f9ec      0x4  Data  Gb  NB_BC95.o [1]
+nb_config               0x200005dc     0x10  Data  Gb  NB_Board_Cfg.o [1]
+nb_receCb               0x20012668      0x4  Data  Lc  usart_nb_iot_driver.o [1]
+nb_timeoutCb            0x2001265c      0x4  Data  Gb  timer_user_poll.o [1]
+nbsend_msg_app          0x08000eed    0x400  Code  Lc  NB_BC95.o [1]
+nbset_event             0x08000041     0x10  Code  Lc  NB_BC95.o [1]
+nbstop_timer            0x08000051     0x16  Code  Lc  NB_BC95.o [1]
+ndigs                   0x080025f8     0x28  Data  Lc  xstoul.o [3]
+oled_asc2_1206          0x0800c698    0x474  Data  Gb  oled_driver.o [1]
+oled_asc2_1608          0x0800c0a8    0x5f0  Data  Gb  oled_driver.o [1]
+osCheckBoxMem           0x0800a1d9     0x3e  Code  Lc  los_membox.o [1]
+osDisableIRQ            0x080044cb           Code  Gb  los_dispatch_iar.o [1]
+osEnableFPU             0x08006c6d      0xe  Code  Gb  los_config.o [1]
+osGetVectorAddr         0x080083ed      0x4  Code  Gb  los_hwi.o [1]
+osHwiDefaultHandler     0x0800839d      0x8  Code  Gb  los_hwi.o [1]
+osHwiInit               0x080083f1     0x1c  Code  Gb  los_hwi.o [1]
+osIdleTask              0x0800305f      0x2  Code  Gb  los_task.o [1]
+osIdleTaskCreate        0x080033bf     0x46  Code  Gb  los_task.o [1]
+osIntNumGet             0x08008391      0xc  Code  Gb  los_hwi.o [1]
+osInterrupt             0x080083a5     0x48  Code  Gb  los_hwi.o [1]
+osMain                  0x08006ca7     0x7c  Code  Gb  los_config.o [1]
+osMemAllocWithCheck     0x08004275     0x5c  Code  Lc  los_memory.o [1]
+osMemCheckUsedNode      0x0800419b     0xac  Code  Lc  los_memory.o [1]
+osMemClearNode          0x08004017      0xe  Code  Lc  los_memory.o [1]
+osMemFindSuitableFreeBlock
+                        0x08003fd9     0x3e  Code  Lc  los_memory.o [1]
+osMemFreeNode           0x080040ab     0xb0  Code  Lc  los_memory.o [1]
+osMemIsNodeValid        0x0800415b     0x40  Code  Lc  los_memory.o [1]
+osMemMergeNode          0x08004025     0x24  Code  Lc  los_memory.o [1]
+osMemSetMagicNumAndTaskid
+                        0x08004247     0x22  Code  Lc  los_memory.o [1]
+osMemSpitNode           0x08004049     0x62  Code  Lc  los_memory.o [1]
+osMemSystemInit         0x08003fbf     0x1a  Code  Gb  los_memory.o [1]
+osMuxInit               0x080084e3     0x54  Code  Gb  los_mux.o [1]
+osPriqueueInit          0x08003caf     0x3c  Code  Gb  los_priqueue.o [1]
+osQueueCreate           0x0800890b     0x92  Code  Gb  los_queue.o [1]
+osQueueInit             0x080088cb     0x40  Code  Gb  los_queue.o [1]
+osQueuePend             0x0800899d     0x8a  Code  Lc  los_queue.o [1]
+osQueueWakeUp           0x08008a27     0x4a  Code  Lc  los_queue.o [1]
+osRegister              0x08006c7b      0xe  Code  Gb  los_config.o [1]
+osSchedule              0x08003d6d      0x8  Code  Gb  los_hw.o [1]
+osSemInit               0x080045af     0x4c  Code  Gb  los_sem.o [1]
+osSwTmrInit             0x08008f31     0xb0  Code  Gb  los_swtmr.o [1]
+osSwTmrStart            0x08008fe1     0x68  Code  Gb  los_swtmr.o [1]
+osSwTmrTask             0x08008ea5     0x4a  Code  Gb  los_swtmr.o [1]
+osSwTmrTaskCreate       0x08008eef     0x42  Code  Gb  los_swtmr.o [1]
+osSwTmrTimeoutHandle    0x0800905d     0x92  Code  Lc  los_swtmr.o [1]
+osSwtmrDelete           0x08009049     0x14  Code  Lc  los_swtmr.o [1]
+osSwtmrScan             0x080090ef     0x2a  Code  Gb  los_swtmr.o [1]
+osSwtmrStop             0x08009119     0x48  Code  Gb  los_swtmr.o [1]
+osTaskAdd2TimerList     0x08003099     0xc8  Code  Gb  los_task.o [1]
+osTaskEntry             0x080034f9     0x9e  Code  Gb  los_task.o [1]
+osTaskExit              0x08003daf      0x8  Code  Gb  los_hw.o [1]
+osTaskInit              0x0800327f    0x140  Code  Gb  los_task.o [1]
+osTaskMemUsedDec        0x08004a6d     0x24  Code  Gb  los_memstat.o [1]
+osTaskMemUsedInc        0x08004a41     0x2c  Code  Gb  los_memstat.o [1]
+osTaskPriModify         0x08003061     0x38  Code  Gb  los_task.o [1]
+osTaskScan              0x080031a5     0xda  Code  Gb  los_task.o [1]
+osTaskSchedule          0x080044e5           Code  Gb  los_dispatch_iar.o [1]
+osTaskSelfDelete        0x08003405     0xf4  Code  Gb  los_task.o [1]
+osTickHandler           0x0800a355     0x28  Code  Gb  los_tick.o [1]
+osTickStart             0x08006e0d     0x28  Code  Gb  los_bsp_adapter.o [1]
+osTimerListDelete       0x08003161     0x44  Code  Gb  los_task.o [1]
+osTimesliceCheck        0x080093db     0x44  Code  Gb  los_timeslice.o [1]
+osTimesliceInit         0x080093cd      0xe  Code  Gb  los_timeslice.o [1]
+osTskStackInit          0x08003db7    0x136  Code  Gb  los_hw.o [1]
+pBoxMem                 0x20011684    0x240  Data  Lc  los_api_static_mem.o [1]
+printf                  0x08006bbd     0x24  Code  Gb  printf.o [3]
+put_uint16_t_value_to_buffer
+                        0x0800c041      0x4  Code  Gb  algorithm.o [1]
+put_uint8_t_value_to_buffer
+                        0x0800c049      0x4  Code  Gb  algorithm.o [1]
+putchar                 0x0800e6b5     0x28  Code  Gb  putchar.o [3]
+read_addr               0x0800ac5d      0x4  Code  Gb  usmart.o [1]
+recv_Entry              0x0800d419     0x9c  Code  Lc  los_api_msgqueue.o [1]
+reset_rece_buf          0x080000a3     0x18  Code  Lc  NB_BC95.o [1]
+reset_uart_rx_len       0x080057a9      0x8  Code  Gb  usart_debug_driver.o [1]
+send_Entry              0x0800d3bd     0x5c  Code  Lc  los_api_msgqueue.o [1]
+seq_record              0x20012678      0x1  Data  Gb  App_NB_control.o [1]
+set_Beep                0x0800ad19     0x1c  Code  Gb  gpio_beep_driver.o [1]
+set_Led1                0x0800acb1     0x1c  Code  Gb  gpio_leds_driver.o [1]
+set_Led2                0x0800accd     0x1c  Code  Gb  gpio_leds_driver.o [1]
+set_Led3                0x0800ace9     0x1c  Code  Gb  gpio_leds_driver.o [1]
+snprintf                0x080014bd     0x44  Code  Gb  snprintf.o [3]
+sprintf                 0x080015a9     0x34  Code  Gb  sprintf.o [3]
+state_reset             0x08000763     0x12  Code  Lc  NB_BC95.o [1]
+strchr                  0x08001511           Code  Gb  strchr.o [5]
+strcspn                 0x08002463     0x22  Code  Gb  strcspn.o [3]
+strlen                  0x08001629           Code  Gb  strlen.o [5]
+strspn                  0x08002441     0x22  Code  Gb  strspn.o [3]
+strstr                  0x08001501     0x10  Code  Gb  NB_BC95.o [1]
+strtok                  0x080015dd     0x4c  Code  Gb  strtok.o [3]
+strtoul                 0x0800165f      0x4  Code  Gb  strtoul.o [3]
+sw_control_center       0x080080ed     0x54  Code  Gb  switch_control.o [1]
+sw_status               0x20012268     0x60  Data  Lc  App_switch_control.o [1]
+swap_uint8_t_in_uint16_t
+                        0x0800c035      0xc  Code  Gb  algorithm.o [1]
+sys_clk_freq            0x0800f9dc      0x4  Data  Gb  los_bsp_adapter.o [1]
+sys_cmd_tab             0x20000594     0x1c  Data  Gb  usmart.o [1]
+tick_per_second         0x0800f9e0      0x4  Data  Gb  los_bsp_adapter.o [1]
+time_fxn                0x200005f8      0xc  Data  Gb  NB_Board_Cfg.o [1]
+uart_rx_buffer          0x20011ccc    0x200  Data  Lc  usart_debug_driver.o [1]
+update_sw_mode_blink    0x08008141     0xa2  Code  Lc  switch_control.o [1]
+update_sw_mode_on_off   0x080081e3     0x1a  Code  Lc  switch_control.o [1]
+usmart_cmd_rec          0x0800a7bd     0xd0  Code  Gb  usmart.o [1]
+usmart_dev              0x20000400     0xf4  Data  Gb  usmart_config.o [1]
+usmart_exe              0x0800a891    0x2bc  Code  Gb  usmart.o [1]
+usmart_get_aparm        0x0800baf9     0xec  Code  Gb  usmart_str.o [1]
+usmart_get_cmdname      0x0800b87d     0x38  Code  Gb  usmart_str.o [1]
+usmart_get_fname        0x0800b8c9    0x230  Code  Gb  usmart_str.o [1]
+usmart_get_fparam       0x0800bc07    0x10e  Code  Gb  usmart_str.o [1]
+usmart_get_parmpos      0x0800bbe5     0x22  Code  Gb  usmart_str.o [1]
+usmart_init             0x0800a7b3      0xa  Code  Gb  usmart.o [1]
+usmart_nametab          0x200005b0     0x18  Data  Gb  usmart_config.o [1]
+usmart_pow              0x0800b715     0x16  Code  Gb  usmart_str.o [1]
+usmart_scan             0x0800ab55     0x6e  Code  Gb  usmart.o [1]
+usmart_search_nextc     0x0800b8b5     0x14  Code  Gb  usmart_str.o [1]
+usmart_str2num          0x0800b72b    0x152  Code  Gb  usmart_str.o [1]
+usmart_strcmp           0x0800b6cd     0x20  Code  Gb  usmart_str.o [1]
+usmart_strcopy          0x0800b6ed     0x12  Code  Gb  usmart_str.o [1]
+usmart_strlen           0x0800b6ff     0x16  Code  Gb  usmart_str.o [1]
+usmart_sys_cmd_exe      0x0800a4fd    0x2b6  Code  Gb  usmart.o [1]
+uwTickFreq              0x2000068b      0x1  Data  Gb  stm32f4xx_hal.o [1]
+uwTickPrio              0x20000668      0x4  Data  Gb  stm32f4xx_hal.o [1]
+vsnprintf               0x0800ac65     0x3c  Code  Gb  vsnprint.o [3]
+write_addr              0x0800ac61      0x4  Code  Gb  usmart.o [1]
+
+
+[1] = C:\Users\Administrator\Desktop\Template\Template\EWARM\Template\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = m7M_tls.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  54 041 bytes of readonly  code memory
+  10 440 bytes of readonly  data memory
+  77 435 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
